@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form_Template</class>
+ <widget class="QWidget" name="Form_Template">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>370</width>
+    <height>560</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>编辑模板</string>
+  </property>
+  <widget class="QFrame" name="frame_Edit_Template">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>351</width>
+     <height>541</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QFrame
+{
+border:2px solid rgb(0, 0, 0);
+border-radius: 5px;
+background-color: rgb(255, 255, 255);
+}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Panel</enum>
+   </property>
+   <property name="lineWidth">
+    <number>3</number>
+   </property>
+   <widget class="QListWidget" name="listWidget_original">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>256</width>
+      <height>192</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QListWidget
+{
+border:2px solid rgb(0, 0, 0);
+border-radius: 5px;
+background-color: rgb(0, 0, 0, 0);
+}</string>
+    </property>
+    <property name="selectionMode">
+     <enum>QAbstractItemView::ExtendedSelection</enum>
+    </property>
+    <property name="currentRow">
+     <number>-1</number>
+    </property>
+    <property name="sortingEnabled">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel
+{
+border: none;
+border-radius: 5px;
+background-color: rgb(0, 0, 0, 0);
+}</string>
+    </property>
+    <property name="text">
+     <string> 原始导入模板</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_original_append">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>60</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+border:2px solid rgb(0, 0, 0);
+border-radius: 5px;
+background-color: rgb(0, 0, 0, 0);
+}</string>
+    </property>
+    <property name="text">
+     <string>新增</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_original_delete">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>90</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+border:2px solid rgb(0, 0, 0);
+border-radius: 5px;
+background-color: rgb(0, 0, 0, 0);
+}</string>
+    </property>
+    <property name="text">
+     <string>删除</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="listWidget_replace">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>300</y>
+      <width>256</width>
+      <height>192</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QListWidget
+{
+border:2px solid rgb(0, 0, 0);
+border-radius: 5px;
+background-color: rgb(0, 0, 0, 0);
+}</string>
+    </property>
+    <property name="selectionMode">
+     <enum>QAbstractItemView::ExtendedSelection</enum>
+    </property>
+    <property name="currentRow">
+     <number>-1</number>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_replace_append">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>300</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+border:2px solid rgb(0, 0, 0);
+border-radius: 5px;
+background-color: rgb(0, 0, 0, 0);
+}</string>
+    </property>
+    <property name="text">
+     <string>新增</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>280</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel
+{
+border: none;
+border-radius: 5px;
+background-color: rgb(0, 0, 0, 0);
+}</string>
+    </property>
+    <property name="text">
+     <string> 替换导入模板</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_replace_delete">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>330</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+border:2px solid rgb(0, 0, 0);
+border-radius: 5px;
+background-color: rgb(0, 0, 0, 0);
+}</string>
+    </property>
+    <property name="text">
+     <string>删除</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel
+{
+border: none;
+border-radius: 5px;
+background-color: rgb(0, 0, 0, 0);
+}</string>
+    </property>
+    <property name="text">
+     <string> 编辑模板</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_template_confirm">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>510</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+border:2px solid rgb(0, 0, 0);
+border-radius: 5px;
+background-color: rgb(0, 0, 0, 0);
+}</string>
+    </property>
+    <property name="text">
+     <string>确认</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_template_cancel">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>510</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+border:2px solid rgb(0, 0, 0);
+border-radius: 5px;
+background-color: rgb(0, 0, 0, 0);
+}</string>
+    </property>
+    <property name="text">
+     <string>取消</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

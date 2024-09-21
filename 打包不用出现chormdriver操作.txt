@@ -1,0 +1,28 @@
+1.找到并编辑此文件，如下所示：位于Python 文件夹中的 Lib\site-packages\selenium\webdriver\common\service.py
+
+2.导入一个包：from subprocess import CREATE_NO_WINDOW
+
+3.修改后的方法如下：
+
+def start(self):
+    """
+    Starts the Service.
+
+    :Exceptions:
+     - WebDriverException : Raised either when it can't start the service
+       or when it can't connect to the service
+    """
+    try:
+        cmd = [self.path]
+        cmd.extend(self.command_line_args())
+        # 在这个里面加入一个参数：creationflags=CREATE_NO_WINDOW
+        self.process = subprocess.Popen(cmd, env=self.env,
+                                        close_fds=platform.system() != 'Windows',
+                                        stdout=self.log_file, stderr=self.log_file,
+                                        stdin=PIPE,
+                                        creationflags=CREATE_NO_WINDOW)
+    except TypeError:
+        raise
+
+保存即可。
+此种方法可以解决在使用pyinstaller打包成exe文件的时候用，很管用。

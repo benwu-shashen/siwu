@@ -1,0 +1,18 @@
+1.63版
+1.增加附件上传功能，可以上传多个附件 （已实现）
+2.思考如何获取页面订单数，通过什么条件去判断
+3.增加程序报错截图 （已实现）
+4.采用分割符来进行分割re.split('分隔符', 要分隔的数据)
+5.终止程序执行sys.exit(0)
+
+1.64版
+1.完善excel文档的一些报错功能，完善excel文档 （已实现）
+2.单做做一个调试模板，调试各种方便自己执行用例的模板
+3.列表去重，set(列表)
+4.列表删除指定值，str.remove(指定值)
+
+1.66版
+1.driver.execute_script('arguments[0].removeAttribute("readonly");', js)删除页面元素
+
+1.67版
+1.driver.execute_script("arguments[0].setAttribute('style',arguments[1]);", ele, "background: green; border: 2px solid red;")
