@@ -1,3 +1,5 @@
+from PyQt6.QtWidgets import QApplication
+
 from Auto_wed_current.Auto_Post.post_window import post_window
 from Auto_wed_current.Auto_UI.GUI_Attachment.web_attachment import web_attachment
 from Auto_wed_current.Auto_UI.GUI_ComboBox.web_combobox import web_combobox
@@ -35,6 +37,8 @@ class web_perform_func(property_data):
         self.we = web_error() # 报错函数
         self.lw = web_logging() # 启用日志
         self.ie = web_import_export() # 导入和导出
+
+        self.pw_bool = False
 
         self.perform_connect()
 
@@ -137,6 +141,7 @@ class web_perform_func(property_data):
         self.pw = post_window()  # 打开接口窗口
         self.pw.setWindowModality(Qt.WindowModality.ApplicationModal)
         self.pw.show()
+
 
     def logging_window(self):
         self.log_print = '启用打印'

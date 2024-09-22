@@ -171,6 +171,27 @@ background-color: rgb(0, 0, 0, 0);
      <string>退出</string>
     </property>
    </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>30</y>
+      <width>191</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel
+{
+border: none;
+border-radius: 5px;
+background-color: rgb(0, 0, 0, 0);
+}</string>
+    </property>
+    <property name="text">
+     <string>注意：导入xls文件会转换为csv文件</string>
+    </property>
+   </widget>
   </widget>
  </widget>
  <resources/>

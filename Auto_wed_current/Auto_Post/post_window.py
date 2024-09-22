@@ -1,7 +1,7 @@
 import sys
 
 from PyQt6 import QtWidgets
-from PyQt6.QtWidgets import QApplication, QMessageBox
+from PyQt6.QtWidgets import QMessageBox
 
 from Auto_wed_current.Auto_Post.GUI_Post_Perform.post_perform import post_perform_func
 from Auto_wed_current.Auto_Post.__init__ import post_property_data
@@ -15,7 +15,6 @@ class post_window(QtWidgets.QMainWindow, Ui_MainWindow_Post):
         post_perform_func()
 
     def control_property(self):  # 所有控件属性
-
         post_property_data.pushButton_post_close = self.close
 
         post_property_data.pushButton_post_start = self.pushButton_post_start # 测试
@@ -42,9 +41,3 @@ class post_window(QtWidgets.QMainWindow, Ui_MainWindow_Post):
 
         elif messageBox.clickedButton() == buttonN:
             event.ignore()
-
-if __name__ == '__main__':
-    app = QApplication(sys.argv)
-    MainWindow = post_window()
-    MainWindow.show()
-    sys.exit(app.exec())

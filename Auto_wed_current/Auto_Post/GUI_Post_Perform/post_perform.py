@@ -1,5 +1,7 @@
 import csv
+import os
 
+import pandas as pd
 from PyQt6.QtCore import Qt
 from PyQt6.QtWidgets import QTableWidgetItem
 
@@ -19,6 +21,7 @@ class post_perform_func(post_property_data):
         self.dt = post_download_template()  # 模板下载
         self.et = execute_thread()
         self.bt = post_button_IsEnabled()
+        self.filename_original = filename().filename_func(r'\Auto_file\接口CSV模板')
 
         self.post_perform_connect()
 
@@ -36,6 +39,7 @@ class post_perform_func(post_property_data):
     def edit_template(self):
         self.tp = post_template()  # 编辑模板
         self.tp.setWindowModality(Qt.WindowModality.ApplicationModal)
+        self.tp.closed.connect(self.test_01)  # 连接自定义关闭信号
         self.tp.show()
 
     def post_tableWidget_setting(self):
@@ -44,10 +48,27 @@ class post_perform_func(post_property_data):
     "请求参数", "响应码", "响应参数", "结果", "说明"
 ])
 
+    def test_01(self):
+        for filename in os.listdir(self.filename_original):
+            if filename.endswith('.xls'):
+                # 构造完整的文件路径
+                file_path = os.path.join(self.filename_original, filename)
+
+                # 读取 .xls 文件
+                df = pd.read_excel(file_path)
+
+                # 构造新的 .csv 文件名
+                csv_filename = filename.replace('.xls', '.csv')
+                csv_file_path = os.path.join(self.filename_original, csv_filename)
+
+                # 保存为 .csv 文件
+                df.to_csv(csv_file_path, index=False, encoding='utf-8')
+                os.remove(file_path)
+
     def post_tableWidget_preview(self): # 填充数据
         self.tableWidget_preview.setRowCount(0)  # 清空所有行
         path = filename().filename_func(r'\Auto_file\接口CSV模板\接口模板.csv')
-        with open(path, 'r', newline='', encoding='gbk') as f:
+        with open(path, 'r', newline='', encoding='utf-8') as f:
             csv_reader = csv.reader(f)
             next(csv_reader)  # 跳过第一行
             for row in csv_reader:

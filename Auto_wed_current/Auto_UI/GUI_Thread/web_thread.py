@@ -1,8 +1,8 @@
-from PyQt6.QtCore import pyqtSignal, QThread, QWaitCondition, QMutex
+from PyQt6.QtCore import pyqtSignal, QThread, QWaitCondition, QMutex, Qt
 
+from Auto_wed_current.Auto_Post.post_window import post_window
 from Auto_wed_current.Auto_execute.execute_summary import execute_summary
 from Auto_wed_current.Auto_execute.execute_while import execute_while_value
-
 
 class execute_thread(QThread): # 执行开始线程
     # 定义线程信号

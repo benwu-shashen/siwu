@@ -78,6 +78,15 @@ class Ui_Form_Template(object):
 "background-color: rgb(0, 0, 0, 0);\n"
 "}")
         self.pushButton_template_quit.setObjectName("pushButton_template_quit")
+        self.label_5 = QtWidgets.QLabel(parent=self.frame_Edit_Template)
+        self.label_5.setGeometry(QtCore.QRect(70, 30, 191, 21))
+        self.label_5.setStyleSheet("QLabel\n"
+"{\n"
+"border: none;\n"
+"border-radius: 5px;\n"
+"background-color: rgb(0, 0, 0, 0);\n"
+"}")
+        self.label_5.setObjectName("label_5")
 
         self.retranslateUi(Form_Template)
         self.listWidget_original.setCurrentRow(-1)
@@ -92,3 +101,4 @@ class Ui_Form_Template(object):
         self.pushButton_original_delete.setText(_translate("Form_Template", "删除"))
         self.label_4.setText(_translate("Form_Template", " 编辑接口模板"))
         self.pushButton_template_quit.setText(_translate("Form_Template", "退出"))
+        self.label_5.setText(_translate("Form_Template", "注意：导入xls文件会转换为csv文件"))

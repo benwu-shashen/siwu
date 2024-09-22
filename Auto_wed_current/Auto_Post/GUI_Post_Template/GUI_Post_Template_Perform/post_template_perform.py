@@ -21,7 +21,6 @@ class post_perform_func(tem_property_data):
         self.df = delete_file()
         self.te_of = template_open_file()
         self.tempalte_perform_connect()
-        # self.thread_ds = thread_data_staging()
         template_show() # 初始页面展示
 
         self.test = self.test  # 一个bug，需要这样写才会触发信号

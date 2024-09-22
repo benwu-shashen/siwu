@@ -1446,3 +1446,169 @@ TypeError: 'str' object is not callable
     
 KeyboardInterrupt
 
+2024-09-22 10:20:28,987 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\pythonProject\Auto_wed_current\Auto_Post\GUI_Post_Perform\post_perform.py", line 52, in post_tableWidget_preview
+    next(csv_reader)  # 跳过第一行
+    ^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'gbk' codec can't decode byte 0xb1 in position 5: illegal multibyte sequence
+
+2024-09-22 10:41:23,198 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\pythonProject\Auto_wed_current\Auto_Post\GUI_Post_Template\GIU_Post_Template_File\append_file.py", line 11, in original_file
+    post_template_append(self.listWidget_original).filedialog()
+  File "C:\Users\16946\Desktop\pythonProject\Auto_wed_current\Auto_Post\GUI_Post_Template\GUI_Post_Template_Thread\post_template_append.py", line 52, in filedialog
+    for data in self.text:  # 替换模板文件复制函数
+                ^^^^^^^^^
+AttributeError: 'post_template_append' object has no attribute 'text'
+
+2024-09-22 10:54:52,335 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\pythonProject\Auto_wed_current\Auto_Post\GUI_Post_Template\GIU_Post_Template_File\append_file.py", line 11, in original_file
+    post_template_append(self.listWidget_original).filedialog()
+  File "C:\Users\16946\Desktop\pythonProject\Auto_wed_current\Auto_Post\GUI_Post_Template\GUI_Post_Template_Thread\post_template_append.py", line 46, in filedialog
+    for filename in filename_list:
+  File "_pydevd_bundle\\pydevd_cython_win32_311_64.pyx", line 1187, in _pydevd_bundle.pydevd_cython_win32_311_64.SafeCallWrapper.__call__
+  File "_pydevd_bundle\\pydevd_cython_win32_311_64.pyx", line 627, in _pydevd_bundle.pydevd_cython_win32_311_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\\pydevd_cython_win32_311_64.pyx", line 1103, in _pydevd_bundle.pydevd_cython_win32_311_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\\pydevd_cython_win32_311_64.pyx", line 1065, in _pydevd_bundle.pydevd_cython_win32_311_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\\pydevd_cython_win32_311_64.pyx", line 585, in _pydevd_bundle.pydevd_cython_win32_311_64.PyDBFrame.do_wait_suspend
+  File "C:\Program Files\JetBrains\PyCharm 2024.2.0.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1207, in do_wait_suspend
+    self._do_wait_suspend(thread, frame, event, arg, suspend_type, from_this_thread)
+  File "C:\Program Files\JetBrains\PyCharm 2024.2.0.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1222, in _do_wait_suspend
+    time.sleep(0.01)
+KeyboardInterrupt
+
+2024-09-22 10:55:20,036 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\pythonProject\Auto_wed_current\Auto_Post\GUI_Post_Template\GIU_Post_Template_File\append_file.py", line 11, in original_file
+    post_template_append(self.listWidget_original).filedialog()
+  File "C:\Users\16946\Desktop\pythonProject\Auto_wed_current\Auto_Post\GUI_Post_Template\GUI_Post_Template_Thread\post_template_append.py", line 51, in filedialog
+    filename_list[filename] = filename.replace('.xls', '.csv')
+    ~~~~~~~~~~~~~^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+
+2024-09-22 10:57:14,201 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\AppData\Local\Programs\Python\Python311\Lib\enum.py", line 688, in __call__
+    def __call__(cls, value, names=None, *, module=None, qualname=None, type=None, start=1, boundary=None):
+    
+KeyboardInterrupt
+
+2024-09-22 11:01:05,840 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\pythonProject\Auto_wed_current\Auto_Post\GUI_Post_Perform\post_perform.py", line 50, in post_tableWidget_preview
+    with open(path, 'r', newline='', encoding='utf-8') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\16946\\Desktop\\pythonProject\\Auto_wed_current\\Auto_file\\接口CSV模板\\接口模板.csv'
+
+2024-09-22 11:04:49,568 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\pythonProject\Auto_wed_current\Auto_Post\GUI_Post_Perform\post_perform.py", line 50, in post_tableWidget_preview
+    with open(path, 'r', newline='', encoding='utf-8') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\16946\\Desktop\\pythonProject\\Auto_wed_current\\Auto_file\\接口CSV模板\\接口模板.csv'
+
+2024-09-22 11:30:40,844 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\pythonProject\Auto_wed_current\Auto_Post\GUI_Post_Perform\post_perform.py", line 50, in post_tableWidget_preview
+    with open(path, 'r', newline='', encoding='utf-8') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\16946\\Desktop\\pythonProject\\Auto_wed_current\\Auto_file\\接口CSV模板\\接口模板.csv'
+
+2024-09-22 11:59:04,994 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\pythonProject\Auto_wed_current\Auto_UI\web_qt_gui.py", line 26, in closeEvent
+    def closeEvent(self, event):
+    
+KeyboardInterrupt
+
+2024-09-22 12:29:21,142 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\pythonProject\Auto_wed_current\Auto_UI\web_qt_gui.py", line 42, in closeEvent
+    driver.close()
+  File "C:\Users\16946\Desktop\pythonProject\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 465, in close
+    self.execute(Command.CLOSE)
+  File "C:\Users\16946\Desktop\pythonProject\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\16946\Desktop\pythonProject\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=129.0.6668.58)
+Stacktrace:
+	GetHandleVerifier [0x00007FF703D7B632+29090]
+	(No symbol) [0x00007FF703CEE6E9]
+	(No symbol) [0x00007FF703BAB1CA]
+	(No symbol) [0x00007FF703B91296]
+	(No symbol) [0x00007FF703B9231F]
+	(No symbol) [0x00007FF703BAB7E3]
+	(No symbol) [0x00007FF703B7F5ED]
+	(No symbol) [0x00007FF703C35379]
+	(No symbol) [0x00007FF703C266B0]
+	(No symbol) [0x00007FF703BF09B1]
+	(No symbol) [0x00007FF703BF1B11]
+	GetHandleVerifier [0x00007FF70409883D+3294125]
+	GetHandleVerifier [0x00007FF7040E4423+3604371]
+	GetHandleVerifier [0x00007FF7040DA2E7+3563095]
+	GetHandleVerifier [0x00007FF703E36F16+797318]
+	(No symbol) [0x00007FF703CF986F]
+	(No symbol) [0x00007FF703CF5454]
+	(No symbol) [0x00007FF703CF55E0]
+	(No symbol) [0x00007FF703CE4A7F]
+	BaseThreadInitThunk [0x00007FF90C997374+20]
+	RtlUserThreadStart [0x00007FF90D3BCC91+33]
+
+
+2024-09-22 13:51:18,600 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\pythonProject\Auto_wed_current\Auto_Post\GUI_Post_Perform\post_perform.py", line 42, in edit_template
+    self.tp.finished.connect(self.test_01)  # 连接关闭信号
+    ^^^^^^^^^^^^^^^^
+AttributeError: 'post_template' object has no attribute 'finished'
+
+2024-09-22 14:03:27,986 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\pythonProject\Auto_wed_current\Auto_Post\GUI_Post_Perform\post_perform.py", line 52, in test_01
+    for filename in os.listdir(self.filename_original):
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotADirectoryError: [WinError 267] 目录名称无效。: 'C:\\Users\\16946\\Desktop\\pythonProject\\Auto_wed_current\\Auto_file\\接口CSV模板'
+
+2024-09-22 14:14:49,839 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\pythonProject\Auto_wed_current\Auto_Post\GUI_Post_Perform\post_perform.py", line 52, in test_01
+    for filename in os.listdir(self.filename_original):
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotADirectoryError: [WinError 267] 目录名称无效。: 'C:\\Users\\16946\\Desktop\\pythonProject\\Auto_wed_current\\Auto_file\\接口CSV模板'
+
+2024-09-22 14:14:51,775 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\pythonProject\Auto_wed_current\Auto_Post\GUI_Post_Perform\post_perform.py", line 52, in test_01
+    for filename in os.listdir(self.filename_original):
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotADirectoryError: [WinError 267] 目录名称无效。: 'C:\\Users\\16946\\Desktop\\pythonProject\\Auto_wed_current\\Auto_file\\接口CSV模板'
+
+2024-09-22 14:18:29,444 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\pythonProject\Auto_wed_current\Auto_Post\GUI_Post_Perform\post_perform.py", line 73, in post_tableWidget_preview
+    with open(path, 'r', newline='', encoding='utf-8') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\16946\\Desktop\\pythonProject\\Auto_wed_current\\Auto_file\\接口CSV模板\\接口模板.csv'
+
+2024-09-22 14:20:04,713 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\pythonProject\Auto_wed_current\Auto_Post\GUI_Post_Perform\post_perform.py", line 73, in post_tableWidget_preview
+    with open(path, 'r', newline='', encoding='utf-8') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\16946\\Desktop\\pythonProject\\Auto_wed_current\\Auto_file\\接口CSV模板\\接口模板.csv'
+
+2024-09-22 14:31:33,448 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\pythonProject\Auto_wed_current\Auto_Post\GUI_Post_Perform\post_perform.py", line 74, in post_tableWidget_preview
+    with open(path, 'r', newline='', encoding='utf-8') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\16946\\Desktop\\pythonProject\\Auto_wed_current\\Auto_file\\接口CSV模板\\接口模板.csv'
+
+2024-09-22 14:32:11,779 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\pythonProject\Auto_wed_current\Auto_UI\web_qt_gui.py", line 26, in closeEvent
+    def closeEvent(self, event):
+    
+KeyboardInterrupt
+
+2024-09-22 14:35:27,668 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\pythonProject\Auto_wed_current\Auto_Post\GUI_Post_Template\post_template.py", line 34, in closeEvent
+    for filename in os.listdir(self.filename_original):
+                               ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'post_template' object has no attribute 'filename_original'
+
+2024-09-22 14:36:31,437 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\pythonProject\Auto_wed_current\Auto_Post\GUI_Post_Template\GIU_Post_Template_File\append_file.py", line 11, in original_file
+    post_template_append(self.listWidget_original).filedialog()
+  File "C:\Users\16946\Desktop\pythonProject\Auto_wed_current\Auto_Post\GUI_Post_Template\GUI_Post_Template_Thread\post_template_append.py", line 54, in filedialog
+    shutil.copy(data, self.filename_original)
+                      ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'post_template_append' object has no attribute 'filename_original'
+
