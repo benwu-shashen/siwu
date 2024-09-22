@@ -13,10 +13,10 @@ chrome.exe --remote-debugging-port=9527 --user-data-dir="C:\selenium\AutomationP
 class driver:
     def __init__(self):
         if self.mode == '启动正常模式':
-            subprocess.Popen('chrome.exe --remote-debugging-port=9527 --user-data-dir="D:\selenium" ')
+            subprocess.Popen('chrome.exe --remote-debugging-port=9527 --user-data-dir="E:\selenium" ')
 
         elif self.mode == '启动无痕模式':
-            subprocess.Popen('C:\Program Files\Google\Chrome\Application\chrome.exe --remote-debugging-port=9527 --user-data-dir="D:\selenium" --incognito')
+            subprocess.Popen('chrome.exe --remote-debugging-port=9527 --user-data-dir="E:\selenium" --incognito')
 
 class driver_class:
     def __init__(self):

@@ -1,9 +1,11 @@
 import csv
 
+from PyQt6.QtCore import Qt
 from PyQt6.QtWidgets import QTableWidgetItem
 
 from Auto_wed_current.Auto_Post.GUI_Post_Download_template.post_download_template import post_download_template
 from Auto_wed_current.Auto_Post.GUI_Post_PushButton.post_button import post_button_IsEnabled
+from Auto_wed_current.Auto_Post.GUI_Post_Template.post_template import post_template
 from Auto_wed_current.Auto_Post.GUI_Post_Thread.post_thread import execute_thread
 from Auto_wed_current.Auto_Post.__init__ import post_property_data
 from Auto_wed_current.Auto_base.filename import filename
@@ -23,13 +25,18 @@ class post_perform_func(post_property_data):
         self.test = self.test  # 一个bug，需要这样写才会触发信号
 
     def post_perform_connect(self):
-        self.pushButton_post_start.clicked.connect(self.post_start)
-        self.pushButton_download_template.clicked.connect(self.dt.download_file)  # 点击模板下载，取至web_qt_gui
-
-        self.pushButton_post_preview.clicked.connect(self.post_tableWidget_preview) # 预览数据
+        self.pushButton_post_start.clicked.connect(self.post_start) # 执行接口测试
+        self.pushButton_download_template.clicked.connect(self.dt.download_file)  # 下载模板，取至web_qt_gui
+        self.pushButton_post_preview.clicked.connect(self.post_tableWidget_preview)  # 预览数据
+        self.pushButton_edit_template.clicked.connect(self.edit_template) # 编辑模板
 
         self.et.set_Enabled_bf.connect(self.bt.set_Enabled_bf)
         self.et.set_Enabled_af.connect(self.bt.set_Enabled_af)
+
+    def edit_template(self):
+        self.tp = post_template()  # 编辑模板
+        self.tp.setWindowModality(Qt.WindowModality.ApplicationModal)
+        self.tp.show()
 
     def post_tableWidget_setting(self):
         self.tableWidget_preview.setHorizontalHeaderLabels([
@@ -52,42 +59,6 @@ class post_perform_func(post_property_data):
 
     def post_start(self):
         self.et.start()
-        # r = requests.get('http://jsonplaceholder.typicode.com/posts')
-        # print(r.status_code)
-        # print(r.json())
-    # def attachment_button_del(self, listWidget):  # 选中时，才会触发删除按钮
-    #     listWidget_data = []
-    #     count = listWidget.count()  # 获取条目数
-    #
-    #     self.bt_af = self.bt.attachment_af  # 未选择数据则隐藏
-    #     self.bt_bf = self.bt.attachment_bf  # 选择数据后则显示
-    #
-    #     for num in range(count):  # 遍历listwidget中的内容
-    #         listWidget_data.append(listWidget.item(num).text())
-    #
-    #     for num in range(len(listWidget_data)):
-    #         select = listWidget.item(num).isSelected()
-    #         if select == True:
-    #             self.bt_af()
-    #             break
-    #
-    #         elif select == False:
-    #             self.bt_bf()
-    #
-    # def attachment_open(self):
-    #     thread_data_staging.append_attachment_list = []  # 用来存新增的虚拟数据地址
-    #     thread_data_staging.delete_attachment_list = []  # 用来存新增的虚拟数据地址
-    #
-    #     thread_data_staging.attachment_dict = {}
-    #
-    #     attachment_show()  # 初始页面展示
-    #
-    # def attachment_close(self):
-    #     self.pushButton_attachment_close()
-    #
-    # def attachment_confirm(self):
-    #     self.thread_ds.start()
-    #     self.attachment_close()
-    #
+
     def test(self): # 不能删
         pass

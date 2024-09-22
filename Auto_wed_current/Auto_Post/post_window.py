@@ -20,6 +20,7 @@ class post_window(QtWidgets.QMainWindow, Ui_MainWindow_Post):
 
         post_property_data.pushButton_post_start = self.pushButton_post_start # 测试
         post_property_data.pushButton_download_template = self.pushButton_download_template # 下载模板
+        post_property_data.pushButton_edit_template = self.pushButton_edit_template  # 编辑模板
         post_property_data.tableWidget_preview = self.tableWidget_preview # 表格
         post_property_data.pushButton_post_preview = self.pushButton_post_preview # 预览
 

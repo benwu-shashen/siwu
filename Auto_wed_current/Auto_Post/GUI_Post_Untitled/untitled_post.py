@@ -49,7 +49,7 @@ class Ui_MainWindow_Post(object):
 "}")
         self.pushButton_post_preview.setObjectName("pushButton_post_preview")
         self.pushButton_edit_template = QtWidgets.QPushButton(parent=self.centralwidget)
-        self.pushButton_edit_template.setGeometry(QtCore.QRect(690, 80, 75, 23))
+        self.pushButton_edit_template.setGeometry(QtCore.QRect(690, 70, 75, 23))
         self.pushButton_edit_template.setCursor(QtGui.QCursor(QtCore.Qt.CursorShape.PointingHandCursor))
         self.pushButton_edit_template.setStyleSheet("QPushButton {\n"
 "border:2px solid rgb(0, 0, 0);\n"

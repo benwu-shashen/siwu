@@ -1394,3 +1394,55 @@ Stacktrace:
 	RtlUserThreadStart [0x00007FF90D3BCC91+33]
 
 
+2024-09-20 15:53:48,529 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\pythonProject\Auto_wed_current\Auto_UI\GUI_Perform\web_perform_func.py", line 137, in open_interface
+    self.pw = post_window()  # 打开接口窗口
+              ^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\pythonProject\Auto_wed_current\Auto_Post\post_window.py", line 15, in __init__
+    post_perform_func()
+  File "C:\Users\16946\Desktop\pythonProject\Auto_wed_current\Auto_Post\GUI_Post_Perform\post_perform.py", line 20, in __init__
+    self.tp = post_template()  # 编辑模板
+              ^^^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\pythonProject\Auto_wed_current\Auto_Post\GUI_Post_Template\post_template.py", line 13, in __init__
+    web_perform_func()
+    ^^^^^^^^^^^^^^^^
+NameError: name 'web_perform_func' is not defined
+
+2024-09-20 16:18:29,285 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\pythonProject\Auto_wed_current\Auto_UI\GUI_Perform\web_perform_func.py", line 137, in open_interface
+    self.pw = post_window()  # 打开接口窗口
+              ^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\pythonProject\Auto_wed_current\Auto_Post\post_window.py", line 15, in __init__
+    post_perform_func()
+  File "C:\Users\16946\Desktop\pythonProject\Auto_wed_current\Auto_Post\GUI_Post_Perform\post_perform.py", line 20, in __init__
+    self.tp = post_template()  # 编辑模板
+              ^^^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\pythonProject\Auto_wed_current\Auto_Post\GUI_Post_Template\post_template.py", line 15, in __init__
+    post_perform_func()
+  File "C:\Users\16946\Desktop\pythonProject\Auto_wed_current\Auto_Post\GUI_Post_Template\GUI_Post_Template_Perform\post_template_perform.py", line 16, in __init__
+    self.tempalte_perform_connect()
+  File "C:\Users\16946\Desktop\pythonProject\Auto_wed_current\Auto_Post\GUI_Post_Template\GUI_Post_Template_Perform\post_template_perform.py", line 28, in tempalte_perform_connect
+    self.pushButton_original_append.clicked.connect(self.af.original_file)
+                                                    ^^^^^^^
+AttributeError: 'post_perform_func' object has no attribute 'af'
+
+2024-09-20 23:53:02,209 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\pythonProject\Auto_wed_current\Auto_Post\GUI_Post_Template\GUI_Post_Template_Perform\post_template_perform.py", line 18, in <lambda>
+    lambda: self.template_button_del(self.listWidget_original))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: post_perform_func.template_button_del() missing 1 required positional argument: 'template'
+
+2024-09-21 09:46:45,970 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\pythonProject\Auto_wed_current\Auto_Post\GUI_Post_Template\GIU_Post_Template_File\append_file.py", line 11, in original_file
+    post_template_append(self.listWidget_original).filedialog()
+  File "C:\Users\16946\Desktop\pythonProject\Auto_wed_current\Auto_Post\GUI_Post_Template\GUI_Post_Template_Thread\post_template_append.py", line 49, in filedialog
+    filename_original = filename().filename_func(r'\Auto_file\接口CSV模板')
+                        ^^^^^^^^^^
+TypeError: 'str' object is not callable
+
+2024-09-21 09:49:01,954 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\AppData\Local\Programs\Python\Python311\Lib\enum.py", line 688, in __call__
+    def __call__(cls, value, names=None, *, module=None, qualname=None, type=None, start=1, boundary=None):
+    
+KeyboardInterrupt
+
