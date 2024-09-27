@@ -1612,3 +1612,648 @@ AttributeError: 'post_template' object has no attribute 'filename_original'
                       ^^^^^^^^^^^^^^^^^^^^^^
 AttributeError: 'post_template_append' object has no attribute 'filename_original'
 
+2024-09-25 00:27:45,081 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_UI\web_qt_gui.py", line 41, in closeEvent
+    driver = driver_class().driver_Chrome('account_01')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_driver\driver_class.py", line 27, in driver_Chrome
+    return self.driver_01
+           ^^^^^^^^^^^^^^
+AttributeError: 'driver_class' object has no attribute 'driver_01'
+
+2024-09-25 00:30:19,503 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_UI\web_qt_gui.py", line 41, in closeEvent
+    driver = driver_class().driver_Chrome('account_01')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_driver\driver_class.py", line 26, in driver_Chrome
+    return self.driver_01
+           ^^^^^^^^^^^^^^
+AttributeError: 'driver_class' object has no attribute 'driver_01'
+
+2024-09-25 00:30:38,453 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_UI\web_qt_gui.py", line 41, in closeEvent
+    driver = driver_class().driver_Chrome('account_01')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_driver\driver_class.py", line 26, in driver_Chrome
+    return self.driver_01
+           ^^^^^^^^^^^^^^
+AttributeError: 'driver_class' object has no attribute 'driver_01'
+
+2024-09-25 00:47:43,992 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_UI\web_qt_gui.py", line 42, in closeEvent
+    driver.close()
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 465, in close
+    self.execute(Command.CLOSE)
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=129.0.6668.59)
+Stacktrace:
+	GetHandleVerifier [0x00007FF73DD0B632+29090]
+	(No symbol) [0x00007FF73DC7E6E9]
+	(No symbol) [0x00007FF73DB3B1CA]
+	(No symbol) [0x00007FF73DB21296]
+	(No symbol) [0x00007FF73DB2231F]
+	(No symbol) [0x00007FF73DB3B7E3]
+	(No symbol) [0x00007FF73DB0F5ED]
+	(No symbol) [0x00007FF73DBC5379]
+	(No symbol) [0x00007FF73DBB66B0]
+	(No symbol) [0x00007FF73DB809B1]
+	(No symbol) [0x00007FF73DB81B11]
+	GetHandleVerifier [0x00007FF73E02883D+3294125]
+	GetHandleVerifier [0x00007FF73E074423+3604371]
+	GetHandleVerifier [0x00007FF73E06A2E7+3563095]
+	GetHandleVerifier [0x00007FF73DDC6F16+797318]
+	(No symbol) [0x00007FF73DC8986F]
+	(No symbol) [0x00007FF73DC85454]
+	(No symbol) [0x00007FF73DC855E0]
+	(No symbol) [0x00007FF73DC74A7F]
+	BaseThreadInitThunk [0x00007FF941A6257D+29]
+	RtlUserThreadStart [0x00007FF941FEAF28+40]
+
+
+2024-09-25 09:56:39,557 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_UI\web_qt_gui.py", line 42, in closeEvent
+    driver.close()
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 465, in close
+    self.execute(Command.CLOSE)
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=129.0.6668.59)
+Stacktrace:
+	GetHandleVerifier [0x00007FF732E6B632+29090]
+	(No symbol) [0x00007FF732DDE6E9]
+	(No symbol) [0x00007FF732C9B1CA]
+	(No symbol) [0x00007FF732C6FAF5]
+	(No symbol) [0x00007FF732D1E2E7]
+	(No symbol) [0x00007FF732D253D8]
+	(No symbol) [0x00007FF732D166B0]
+	(No symbol) [0x00007FF732CE09B1]
+	(No symbol) [0x00007FF732CE1B11]
+	GetHandleVerifier [0x00007FF73318883D+3294125]
+	GetHandleVerifier [0x00007FF7331D4423+3604371]
+	GetHandleVerifier [0x00007FF7331CA2E7+3563095]
+	GetHandleVerifier [0x00007FF732F26F16+797318]
+	(No symbol) [0x00007FF732DE986F]
+	(No symbol) [0x00007FF732DE5454]
+	(No symbol) [0x00007FF732DE55E0]
+	(No symbol) [0x00007FF732DD4A7F]
+	BaseThreadInitThunk [0x00007FF8BAB3257D+29]
+	RtlUserThreadStart [0x00007FF8BC76AF28+40]
+
+
+2024-09-25 10:59:02,837 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_UI\web_qt_gui.py", line 42, in closeEvent
+    driver.close()
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 465, in close
+    self.execute(Command.CLOSE)
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=129.0.6668.59)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7339DB632+29090]
+	(No symbol) [0x00007FF73394E6E9]
+	(No symbol) [0x00007FF73380B1CA]
+	(No symbol) [0x00007FF7337F1296]
+	(No symbol) [0x00007FF7337F231F]
+	(No symbol) [0x00007FF73380B7E3]
+	(No symbol) [0x00007FF7337DF5ED]
+	(No symbol) [0x00007FF733895379]
+	(No symbol) [0x00007FF7338866B0]
+	(No symbol) [0x00007FF7338509B1]
+	(No symbol) [0x00007FF733851B11]
+	GetHandleVerifier [0x00007FF733CF883D+3294125]
+	GetHandleVerifier [0x00007FF733D44423+3604371]
+	GetHandleVerifier [0x00007FF733D3A2E7+3563095]
+	GetHandleVerifier [0x00007FF733A96F16+797318]
+	(No symbol) [0x00007FF73395986F]
+	(No symbol) [0x00007FF733955454]
+	(No symbol) [0x00007FF7339555E0]
+	(No symbol) [0x00007FF733944A7F]
+	BaseThreadInitThunk [0x00007FFB81BF257D+29]
+	RtlUserThreadStart [0x00007FFB83AEAF28+40]
+
+
+2024-09-25 11:03:38,753 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_base\wait.py", line 24, in wait_element
+    WebDriverWait(self.driver, self.wait_time).until(EC.presence_of_all_elements_located((By.XPATH, self.xpath)))
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_execute\execute_while.py", line 104, in execute_function_original
+    driver_wait(row, xpath, account, error, self.wait_time, excel_file=self.excel_file, excel_sheet=excel_sheet).wait_element()
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_base\wait.py", line 26, in wait_element
+    raise error_reminder('wait_element')
+Auto_wed_current.Auto_base.error_reminder.error_reminder: [原始模板V1.0.xls]>[测试用例模板]>[第4行]报错，页面等待超时
+
+2024-09-25 11:04:22,188 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_UI\web_qt_gui.py", line 42, in closeEvent
+    driver.close()
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 465, in close
+    self.execute(Command.CLOSE)
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=129.0.6668.59)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7339DB632+29090]
+	(No symbol) [0x00007FF73394E6E9]
+	(No symbol) [0x00007FF73380B1CA]
+	(No symbol) [0x00007FF7337F1296]
+	(No symbol) [0x00007FF7337F231F]
+	(No symbol) [0x00007FF73380B7E3]
+	(No symbol) [0x00007FF7337DF5ED]
+	(No symbol) [0x00007FF733896497]
+	(No symbol) [0x00007FF733895A29]
+	(No symbol) [0x00007FF7338866B0]
+	(No symbol) [0x00007FF7338509B1]
+	(No symbol) [0x00007FF733851B11]
+	GetHandleVerifier [0x00007FF733CF883D+3294125]
+	GetHandleVerifier [0x00007FF733D44423+3604371]
+	GetHandleVerifier [0x00007FF733D3A2E7+3563095]
+	GetHandleVerifier [0x00007FF733A96F16+797318]
+	(No symbol) [0x00007FF73395986F]
+	(No symbol) [0x00007FF733955454]
+	(No symbol) [0x00007FF7339555E0]
+	(No symbol) [0x00007FF733944A7F]
+	BaseThreadInitThunk [0x00007FFB81BF257D+29]
+	RtlUserThreadStart [0x00007FFB83AEAF28+40]
+
+
+2024-09-25 11:05:29,831 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_UI\web_qt_gui.py", line 42, in closeEvent
+    driver.close()
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 465, in close
+    self.execute(Command.CLOSE)
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=129.0.6668.59)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7339DB632+29090]
+	(No symbol) [0x00007FF73394E6E9]
+	(No symbol) [0x00007FF73380B1CA]
+	(No symbol) [0x00007FF7337F1296]
+	(No symbol) [0x00007FF7337F231F]
+	(No symbol) [0x00007FF73380B7E3]
+	(No symbol) [0x00007FF7337DF5ED]
+	(No symbol) [0x00007FF733895379]
+	(No symbol) [0x00007FF7338866B0]
+	(No symbol) [0x00007FF7338509B1]
+	(No symbol) [0x00007FF733851B11]
+	GetHandleVerifier [0x00007FF733CF883D+3294125]
+	GetHandleVerifier [0x00007FF733D44423+3604371]
+	GetHandleVerifier [0x00007FF733D3A2E7+3563095]
+	GetHandleVerifier [0x00007FF733A96F16+797318]
+	(No symbol) [0x00007FF73395986F]
+	(No symbol) [0x00007FF733955454]
+	(No symbol) [0x00007FF7339555E0]
+	(No symbol) [0x00007FF733944A7F]
+	BaseThreadInitThunk [0x00007FFB81BF257D+29]
+	RtlUserThreadStart [0x00007FFB83AEAF28+40]
+
+
+2024-09-27 22:55:23,961 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_UI\web_qt_gui.py", line 42, in closeEvent
+    driver.close()
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 465, in close
+    self.execute(Command.CLOSE)
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=129.0.6668.60)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6AE41B632+29090]
+	(No symbol) [0x00007FF6AE38E6E9]
+	(No symbol) [0x00007FF6AE24B1CA]
+	(No symbol) [0x00007FF6AE231296]
+	(No symbol) [0x00007FF6AE23231F]
+	(No symbol) [0x00007FF6AE24B7E3]
+	(No symbol) [0x00007FF6AE21F5ED]
+	(No symbol) [0x00007FF6AE2D5379]
+	(No symbol) [0x00007FF6AE2C66B0]
+	(No symbol) [0x00007FF6AE2909B1]
+	(No symbol) [0x00007FF6AE291B11]
+	GetHandleVerifier [0x00007FF6AE73883D+3294125]
+	GetHandleVerifier [0x00007FF6AE784423+3604371]
+	GetHandleVerifier [0x00007FF6AE77A2E7+3563095]
+	GetHandleVerifier [0x00007FF6AE4D6F16+797318]
+	(No symbol) [0x00007FF6AE39986F]
+	(No symbol) [0x00007FF6AE395454]
+	(No symbol) [0x00007FF6AE3955E0]
+	(No symbol) [0x00007FF6AE384A7F]
+	BaseThreadInitThunk [0x00007FF9B8C1257D+29]
+	RtlUserThreadStart [0x00007FF9B99CAF28+40]
+
+
+2024-09-27 22:56:03,962 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_Thread\post_thread.py", line 23, in run
+    self.pr.issue_resquest()
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_Request\post_request.py", line 13, in issue_resquest
+UnicodeDecodeError: 'gbk' codec can't decode byte 0x81 in position 70: illegal multibyte sequence
+
+2024-09-27 22:56:04,917 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_Thread\post_thread.py", line 23, in run
+    self.pr.issue_resquest()
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_Request\post_request.py", line 13, in issue_resquest
+UnicodeDecodeError: 'gbk' codec can't decode byte 0x81 in position 70: illegal multibyte sequence
+
+2024-09-27 23:11:47,316 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\urllib3\connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\urllib3\connectionpool.py", line 495, in _make_request
+    conn.request(
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\urllib3\connection.py", line 441, in request
+    self.endheaders()
+  File "C:\Users\16946\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1298, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\16946\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1058, in _send_output
+    self.send(msg)
+  File "C:\Users\16946\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 996, in send
+    self.connect()
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\urllib3\connection.py", line 279, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\urllib3\connection.py", line 214, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000017DDDFA00D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_UI\web_qt_gui.py", line 42, in closeEvent
+    driver.close()
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 465, in close
+    self.execute(Command.CLOSE)
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 352, in execute
+    response = self.command_executor.execute(driver_command, params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 306, in execute
+    return self._request(command_info[0], url, body=data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 326, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\urllib3\_request_methods.py", line 135, in request
+    return self.request_encode_url(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\urllib3\_request_methods.py", line 182, in request_encode_url
+    return self.urlopen(method, url, **extra_kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\urllib3\poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\urllib3\connectionpool.py", line 873, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\urllib3\connectionpool.py", line 873, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\urllib3\connectionpool.py", line 873, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=55549): Max retries exceeded with url: /session/b5824a3eca9488842ef18c56f54de75e/window (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017DDDFA00D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+
+2024-09-27 23:13:16,643 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_UI\GUI_Perform\web_perform_func.py", line 141, in open_interface
+    self.pw = post_window()  # 打开接口窗口
+              ^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\post_window.py", line 13, in __init__
+    self.pushButton.clicked(self.test_01)
+TypeError: native Qt signal is not callable
+
+2024-09-27 23:15:21,244 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_UI\GUI_Perform\web_perform_func.py", line 141, in open_interface
+    self.pw = post_window()  # 打开接口窗口
+              ^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\post_window.py", line 13, in __init__
+    self.pushButton.clicked(self.test_01)
+    ^^^^^^^^^^^^^^^
+AttributeError: 'post_window' object has no attribute 'pushButton'
+
+2024-09-27 23:15:22,587 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_UI\GUI_Perform\web_perform_func.py", line 141, in open_interface
+    self.pw = post_window()  # 打开接口窗口
+              ^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\post_window.py", line 13, in __init__
+    self.pushButton.clicked(self.test_01)
+    ^^^^^^^^^^^^^^^
+AttributeError: 'post_window' object has no attribute 'pushButton'
+
+2024-09-27 23:15:24,189 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_UI\GUI_Perform\web_perform_func.py", line 141, in open_interface
+    self.pw = post_window()  # 打开接口窗口
+              ^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\post_window.py", line 13, in __init__
+    self.pushButton.clicked(self.test_01)
+    ^^^^^^^^^^^^^^^
+AttributeError: 'post_window' object has no attribute 'pushButton'
+
+2024-09-27 23:15:27,069 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_UI\GUI_Perform\web_perform_func.py", line 141, in open_interface
+    self.pw = post_window()  # 打开接口窗口
+              ^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\post_window.py", line 13, in __init__
+    self.pushButton.clicked(self.test_01)
+    ^^^^^^^^^^^^^^^
+AttributeError: 'post_window' object has no attribute 'pushButton'
+
+2024-09-27 23:15:39,597 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_UI\GUI_Perform\web_perform_func.py", line 141, in open_interface
+    self.pw = post_window()  # 打开接口窗口
+              ^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\post_window.py", line 13, in __init__
+    self.pushButton_01.clicked(self.test_01)
+TypeError: native Qt signal is not callable
+
+2024-09-27 23:16:02,685 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_UI\GUI_Perform\web_perform_func.py", line 141, in open_interface
+    self.pw = post_window()  # 打开接口窗口
+              ^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\post_window.py", line 11, in __init__
+    self.control_property()
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\post_window.py", line 27, in control_property
+    self.pushButton_01.clicked(self.test_01)
+TypeError: native Qt signal is not callable
+
+2024-09-27 23:19:10,266 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_UI\GUI_Perform\web_perform_func.py", line 141, in open_interface
+    self.pw = post_window()  # 打开接口窗口
+              ^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\post_window.py", line 14, in __init__
+    self.pushButton_download_template.clicked.connect(post_download_template().download_file())
+TypeError: argument 1 has unexpected type 'NoneType'
+
+2024-09-27 23:19:46,102 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_UI\GUI_Perform\web_perform_func.py", line 141, in open_interface
+    self.pw = post_window()  # 打开接口窗口
+              ^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\post_window.py", line 12, in __init__
+    self.control_property()
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\post_window.py", line 20, in control_property
+    self.pushButton_download_template.clicked.connect(post_download_template().download_file())
+TypeError: argument 1 has unexpected type 'NoneType'
+
+2024-09-27 23:20:23,005 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_UI\GUI_Perform\web_perform_func.py", line 141, in open_interface
+    self.pw = post_window()  # 打开接口窗口
+              ^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\post_window.py", line 12, in __init__
+    self.control_property()
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\post_window.py", line 21, in control_property
+    self.pushButton_download_template.clicked.connect(self.dt.download_file())
+                                                      ^^^^^^^
+AttributeError: 'post_window' object has no attribute 'dt'
+
+2024-09-27 23:20:43,250 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_UI\web_qt_gui.py", line 42, in closeEvent
+    driver.close()
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 465, in close
+    self.execute(Command.CLOSE)
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 352, in execute
+    response = self.command_executor.execute(driver_command, params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 306, in execute
+    return self._request(command_info[0], url, body=data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 326, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\urllib3\_request_methods.py", line 135, in request
+    return self.request_encode_url(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\urllib3\_request_methods.py", line 182, in request_encode_url
+    return self.urlopen(method, url, **extra_kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\urllib3\poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\urllib3\connectionpool.py", line 873, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\urllib3\connectionpool.py", line 873, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\urllib3\connectionpool.py", line 495, in _make_request
+    conn.request(
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\urllib3\connection.py", line 441, in request
+    self.endheaders()
+  File "C:\Users\16946\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1298, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\16946\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1058, in _send_output
+    self.send(msg)
+  File "C:\Users\16946\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 996, in send
+    self.connect()
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\urllib3\connection.py", line 279, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\urllib3\connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\urllib3\util\connection.py", line 81, in create_connection
+    sock.close()
+  File "C:\Users\16946\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 499, in close
+    def close(self):
+    
+KeyboardInterrupt
+
+2024-09-27 23:20:47,997 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_UI\GUI_Perform\web_perform_func.py", line 141, in open_interface
+    self.pw = post_window()  # 打开接口窗口
+              ^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\post_window.py", line 12, in __init__
+    self.control_property()
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\post_window.py", line 21, in control_property
+    self.pushButton_download_template.clicked.connect(self.dt.download_file())
+                                                      ^^^^^^^
+AttributeError: 'post_window' object has no attribute 'dt'
+
+2024-09-27 23:21:11,243 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\AppData\Local\Programs\Python\Python311\Lib\enum.py", line 688, in __call__
+    def __call__(cls, value, names=None, *, module=None, qualname=None, type=None, start=1, boundary=None):
+    
+KeyboardInterrupt
+
+2024-09-27 23:21:19,520 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_UI\GUI_Perform\web_perform_func.py", line 141, in open_interface
+    self.pw = post_window()  # 打开接口窗口
+              ^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\post_window.py", line 16, in __init__
+    self.control_property()
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\post_window.py", line 24, in control_property
+    self.pushButton_download_template.clicked.connect(self.dt.download_file())
+TypeError: argument 1 has unexpected type 'NoneType'
+
+2024-09-27 23:22:39,016 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_UI\GUI_Perform\web_perform_func.py", line 141, in open_interface
+    self.pw = post_window()  # 打开接口窗口
+              ^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\post_window.py", line 16, in __init__
+    self.control_property()
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\post_window.py", line 24, in control_property
+    self.pushButton_download_template.clicked.connect(self.dt.download_file())
+TypeError: argument 1 has unexpected type 'NoneType'
+
+2024-09-27 23:23:12,648 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_UI\GUI_Perform\web_perform_func.py", line 141, in open_interface
+    self.pw = post_window()  # 打开接口窗口
+              ^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\post_window.py", line 16, in __init__
+    self.control_property()
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\post_window.py", line 24, in control_property
+    self.pushButton_download_template.clicked.connect(self.dt.download_file())
+    ^^^^
+  File "_pydevd_bundle\\pydevd_cython_win32_311_64.pyx", line 1187, in _pydevd_bundle.pydevd_cython_win32_311_64.SafeCallWrapper.__call__
+  File "_pydevd_bundle\\pydevd_cython_win32_311_64.pyx", line 627, in _pydevd_bundle.pydevd_cython_win32_311_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\\pydevd_cython_win32_311_64.pyx", line 1103, in _pydevd_bundle.pydevd_cython_win32_311_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\\pydevd_cython_win32_311_64.pyx", line 1065, in _pydevd_bundle.pydevd_cython_win32_311_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\\pydevd_cython_win32_311_64.pyx", line 585, in _pydevd_bundle.pydevd_cython_win32_311_64.PyDBFrame.do_wait_suspend
+  File "C:\Program Files\JetBrains\PyCharm 2024.2.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1207, in do_wait_suspend
+    self._do_wait_suspend(thread, frame, event, arg, suspend_type, from_this_thread)
+  File "C:\Program Files\JetBrains\PyCharm 2024.2.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1222, in _do_wait_suspend
+    time.sleep(0.01)
+KeyboardInterrupt
+
+2024-09-27 23:44:04,178 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_Thread\post_thread.py", line 23, in run
+    self.pr.issue_resquest()
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_Request\post_request.py", line 11, in issue_resquest
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\16946\\Desktop\\siwu\\Auto_wed_current\\Auto_file\\接口CSV模板\\接口模板.csv'
+
+2024-09-27 23:57:47,469 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_Template\GIU_Post_Template_File\delete_file.py", line 14, in original_file
+    self.del_listwidget(self.listWidget_original)
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_Template\GIU_Post_Template_File\delete_file.py", line 42, in del_listwidget
+    os.remove(self.original_dir + r'\\' + data)
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。: 'C:\\Users\\16946\\Desktop\\siwu\\Auto_wed_current\\Auto_file\\接口CSV模板\\\\原始模板V1.0.xls'
+
+2024-09-28 00:03:30,410 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_Template\GIU_Post_Template_File\append_file.py", line 22, in original_file
+    self.filedialog(self.listWidget_original)
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_Template\GIU_Post_Template_File\append_file.py", line 53, in filedialog
+    filename_list.append(filename.replace('.xls', '.csv'))
+    ^^^^^^^^^^^^^
+  File "_pydevd_bundle\\pydevd_cython_win32_311_64.pyx", line 1187, in _pydevd_bundle.pydevd_cython_win32_311_64.SafeCallWrapper.__call__
+  File "_pydevd_bundle\\pydevd_cython_win32_311_64.pyx", line 627, in _pydevd_bundle.pydevd_cython_win32_311_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\\pydevd_cython_win32_311_64.pyx", line 1103, in _pydevd_bundle.pydevd_cython_win32_311_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\\pydevd_cython_win32_311_64.pyx", line 1065, in _pydevd_bundle.pydevd_cython_win32_311_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\\pydevd_cython_win32_311_64.pyx", line 585, in _pydevd_bundle.pydevd_cython_win32_311_64.PyDBFrame.do_wait_suspend
+  File "C:\Program Files\JetBrains\PyCharm 2024.2.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1207, in do_wait_suspend
+    self._do_wait_suspend(thread, frame, event, arg, suspend_type, from_this_thread)
+  File "C:\Program Files\JetBrains\PyCharm 2024.2.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1222, in _do_wait_suspend
+    time.sleep(0.01)
+KeyboardInterrupt
+
+2024-09-28 00:10:56,132 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_Template\GIU_Post_Template_File\delete_file.py", line 14, in original_file
+    self.del_listwidget(self.listWidget_original)
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_Template\GIU_Post_Template_File\delete_file.py", line 42, in del_listwidget
+    os.remove(self.original_dir + r'\\' + data)
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。: 'C:\\Users\\16946\\Desktop\\siwu\\Auto_wed_current\\Auto_file\\接口CSV模板\\\\原始模板V1.0.xls'
+
+2024-09-28 00:13:09,803 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_Template\GIU_Post_Template_File\delete_file.py", line 14, in original_file
+    self.del_listwidget(self.listWidget_original)
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_Template\GIU_Post_Template_File\delete_file.py", line 42, in del_listwidget
+    os.remove(self.original_dir + r'\\' + data)
+    ^^
+  File "_pydevd_bundle\\pydevd_cython_win32_311_64.pyx", line 1187, in _pydevd_bundle.pydevd_cython_win32_311_64.SafeCallWrapper.__call__
+  File "_pydevd_bundle\\pydevd_cython_win32_311_64.pyx", line 627, in _pydevd_bundle.pydevd_cython_win32_311_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\\pydevd_cython_win32_311_64.pyx", line 937, in _pydevd_bundle.pydevd_cython_win32_311_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\\pydevd_cython_win32_311_64.pyx", line 928, in _pydevd_bundle.pydevd_cython_win32_311_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\\pydevd_cython_win32_311_64.pyx", line 585, in _pydevd_bundle.pydevd_cython_win32_311_64.PyDBFrame.do_wait_suspend
+  File "C:\Program Files\JetBrains\PyCharm 2024.2.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1207, in do_wait_suspend
+    self._do_wait_suspend(thread, frame, event, arg, suspend_type, from_this_thread)
+  File "C:\Program Files\JetBrains\PyCharm 2024.2.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1222, in _do_wait_suspend
+    time.sleep(0.01)
+KeyboardInterrupt
+
+2024-09-28 00:20:12,145 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_Thread\post_thread.py", line 23, in run
+    self.pr.issue_resquest()
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_Request\post_request.py", line 11, in issue_resquest
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\16946\\Desktop\\siwu\\Auto_wed_current\\Auto_file\\接口CSV模板\\接口模板.csv'
+
+2024-09-28 00:28:21,477 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_UI\GUI_Perform\web_perform_func.py", line 141, in open_interface
+    self.pw = post_window()  # 打开接口窗口
+              ^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\post_window.py", line 25, in __init__
+    self.tp = post_template() # 编辑模板
+              ^^^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_Template\post_template.py", line 31, in __init__
+    template_show()  # 初始页面展示
+    ^^^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_Template\GIU_Post_Template_File\template_show.py", line 11, in __init__
+    self.filename_show()
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_Template\GIU_Post_Template_File\template_show.py", line 16, in filename_show
+    self.listWidget_original.clear()
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'template_show' object has no attribute 'listWidget_original'
+
+2024-09-28 00:34:32,664 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\post_window.py", line 59, in post_tableWidget_preview
+    with open(path, 'r', newline='', encoding='utf-8') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\16946\\Desktop\\siwu\\Auto_wed_current\\Auto_file\\接口CSV模板\\接口模板.csv'
+
+2024-09-28 00:36:16,339 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_Template\post_template.py", line 39, in template_close
+    self.pushButton_template_close()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'post_template' object has no attribute 'pushButton_template_close'
+

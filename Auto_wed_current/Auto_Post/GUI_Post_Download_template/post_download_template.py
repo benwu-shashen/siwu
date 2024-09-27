@@ -1,6 +1,5 @@
 import shutil
 
-from PyQt6.QtCore import QTimer
 from PyQt6.QtWidgets import QFileDialog
 
 from Auto_wed_current.Auto_UI.GUI_Error.web_error import web_error

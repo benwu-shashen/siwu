@@ -79,7 +79,3 @@ def screenshot(row, xpath, account, error, screenshot, wait_time, excel_file, ex
                 shutil.move(src, excel_sheet_dir)  # 移动截图
             except Exception:
                 raise error_reminder('screenshot_01', img=img)
-
-
-
-

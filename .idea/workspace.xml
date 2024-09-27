@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="91a3fed8-a038-4455-affe-4e4ea8897a0d" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/Auto_wed_current/Auto_UI/GUI_Untitled/untitled_test.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_Download_template/post_download_template.py" beforeDir="false" afterPath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_Download_template/post_download_template.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_Perform/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_Perform/post_perform.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_Template/GIU_Post_Template_File/append_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_Template/GIU_Post_Template_File/append_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_Template/GIU_Post_Template_File/delete_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_Template/GIU_Post_Template_File/delete_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_Template/GUI_Post_Template_Perform/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_Template/GUI_Post_Template_Perform/post_template_perform.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_Template/GUI_Post_Template_Thread/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_Template/GUI_Post_Template_Thread/post_template_append.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_Template/GUI_Post_Template_Thread/post_template_delete.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_Template/post_template.py" beforeDir="false" afterPath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_Template/post_template.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_Untitled/untitled_post.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_Untitled/untitled_post.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/post_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/post_window.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_UI/GUI_Logging/log_file/202409error.log" beforeDir="false" afterPath="$PROJECT_DIR$/Auto_wed_current/Auto_UI/GUI_Logging/log_file/202409error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_base/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/Auto_wed_current/Auto_base/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_driver/driver_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/Auto_wed_current/Auto_driver/driver_class.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_file/原始导入excel模板/原始模板V1.0.xls" beforeDir="false" afterPath="$PROJECT_DIR$/Auto_wed_current/Auto_file/原始导入excel模板/原始模板V1.0.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_file/接口CSV模板/接口模板.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auto_wed_current/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Auto_wed_current/test1.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2mMyIjrA1BzfEOfBDYbbGuakLME" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.test1.executor": "Run",
+    "Python.web_qt_gui.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/16946/Desktop/siwu",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.externalTools",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_UI\GUI_Untitled" />
+      <recent name="C:\Users\16946\Desktop\pythonProject\Auto_wed_current\Auto_UI" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.web_qt_gui">
+    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Auto_wed_current" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Auto_wed_current/test1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Auto_wed_current" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Auto_wed_current/test1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="web_qt_gui" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Auto_wed_current/Auto_UI" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Auto_wed_current/Auto_UI/web_qt_gui.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="web_qt_gui" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Auto_wed_current/Auto_UI" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Auto_wed_current/Auto_UI/web_qt_gui.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="web_qt_gui" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Auto_wed_current/Auto_UI" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Auto_wed_current/Auto_UI/web_qt_gui.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.web_qt_gui" />
+        <item itemvalue="Python.test1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-PY-242.21829.153" />
+        <option value="bundled-python-sdk-464836ebc622-b74155a9e76b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.21829.153" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="91a3fed8-a038-4455-affe-4e4ea8897a0d" name="更改" comment="" />
+      <created>1726900663706</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726900663706</updated>
+      <workItem from="1726900665406" duration="2041000" />
+      <workItem from="1726905956353" duration="2423000" />
+      <workItem from="1727101340858" duration="170000" />
+      <workItem from="1727101576767" duration="35000" />
+      <workItem from="1727101646209" duration="8000" />
+      <workItem from="1727102105902" duration="80000" />
+      <workItem from="1727191484605" duration="1009000" />
+      <workItem from="1727192521980" duration="52000" />
+      <workItem from="1727192582723" duration="7000" />
+      <workItem from="1727192590730" duration="1196000" />
+      <workItem from="1727193811935" duration="217000" />
+      <workItem from="1727194039313" duration="218000" />
+      <workItem from="1727194268828" duration="464000" />
+      <workItem from="1727194813278" duration="42000" />
+      <workItem from="1727194937415" duration="50000" />
+      <workItem from="1727195072995" duration="122000" />
+      <workItem from="1727195238794" duration="1104000" />
+      <workItem from="1727228169077" duration="829000" />
+      <workItem from="1727229054781" duration="138000" />
+      <workItem from="1727229202251" duration="13000" />
+      <workItem from="1727229283834" duration="118000" />
+      <workItem from="1727229496922" duration="854000" />
+      <workItem from="1727232738138" duration="70000" />
+      <workItem from="1727232821417" duration="39000" />
+      <workItem from="1727232929152" duration="31000" />
+      <workItem from="1727232968202" duration="511000" />
+      <workItem from="1727233491905" duration="41000" />
+      <workItem from="1727365557055" duration="984000" />
+      <workItem from="1727444209220" duration="2431000" />
+      <workItem from="1727448600975" duration="6322000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/siwu$web_qt_gui.coverage" NAME="web_qt_gui 覆盖结果" MODIFIED="1727455178542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Auto_wed_current/Auto_UI" />
+    <SUITE FILE_PATH="coverage/pythonProject$web_qt_gui.coverage" NAME="web_qt_gui 覆盖结果" MODIFIED="1726908319588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Auto_wed_current/Auto_UI" />
+    <SUITE FILE_PATH="coverage/siwu$test1.coverage" NAME="test1 覆盖结果" MODIFIED="1727447977811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Auto_wed_current" />
+  </component>
+</project>
