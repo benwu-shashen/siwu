@@ -1,4 +1,3 @@
-import os
 import subprocess
 
 from selenium import webdriver
@@ -13,10 +12,10 @@ chrome.exe --remote-debugging-port=9527 --user-data-dir="C:\selenium\AutomationP
 class driver:
     def __init__(self):
         if self.mode == '启动正常模式':
-            subprocess.Popen('chrome.exe --remote-debugging-port=9527 --user-data-dir="E:\selenium" ')
+            subprocess.Popen('chrome.exe --remote-debugging-port=9527 --user-data-dir="D:\selenium" ')
 
         elif self.mode == '启动无痕模式':
-            subprocess.Popen('chrome.exe --remote-debugging-port=9527 --user-data-dir="E:\selenium" --incognito')
+            subprocess.Popen('chrome.exe --remote-debugging-port=9527 --user-data-dir="D:\selenium" --incognito')
 
 class driver_class:
     def __init__(self):
