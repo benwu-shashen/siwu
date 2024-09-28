@@ -32,7 +32,7 @@ class Ui_Form_Post(object):
 "}")
         self.pushButton_edit_template.setObjectName("pushButton_edit_template")
         self.pushButton_post_start = QtWidgets.QPushButton(parent=Form_Post)
-        self.pushButton_post_start.setGeometry(QtCore.QRect(70, 270, 75, 23))
+        self.pushButton_post_start.setGeometry(QtCore.QRect(50, 330, 75, 23))
         self.pushButton_post_start.setCursor(QtGui.QCursor(QtCore.Qt.CursorShape.PointingHandCursor))
         self.pushButton_post_start.setStyleSheet("QPushButton {\n"
 "border:2px solid rgb(0, 0, 0);\n"
@@ -55,6 +55,12 @@ class Ui_Form_Post(object):
 "background-color: rgb(0, 0, 0, 0);\n"
 "}")
         self.pushButton_post_preview.setObjectName("pushButton_post_preview")
+        self.frame_box = QtWidgets.QFrame(parent=Form_Post)
+        self.frame_box.setGeometry(QtCore.QRect(80, 80, 581, 201))
+        self.frame_box.setStyleSheet("")
+        self.frame_box.setFrameShape(QtWidgets.QFrame.Shape.StyledPanel)
+        self.frame_box.setFrameShadow(QtWidgets.QFrame.Shadow.Raised)
+        self.frame_box.setObjectName("frame_box")
 
         self.retranslateUi(Form_Post)
         QtCore.QMetaObject.connectSlotsByName(Form_Post)

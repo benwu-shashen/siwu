@@ -2,6 +2,7 @@ import os
 import shutil
 
 import pandas as pd
+import xlrd
 from PyQt6.QtWidgets import QFileDialog
 
 from Auto_wed_current.Auto_Post.GUI_Post_Template import tem_property_data
@@ -25,9 +26,20 @@ class append_file(tem_property_data):
         dir = QFileDialog()
         dir.setFileMode(QFileDialog.FileMode.ExistingFiles)  # 设置多选
         dir.setNameFilter('文件(*.xls)') # 只显示xls文件格式
+        format = ['测试编号', '测试名称', '请求类型', '请求url', '请求参数', '响应码', '响应参数', '结果', '说明']
 
         if dir.exec() == QFileDialog.DialogCode.Accepted:  # 判断是否选择了文件
             self.text = dir.selectedFiles()
+            for data in self.text:  # 模板文件复制函数
+                workbook = xlrd.open_workbook(data)  # 替换为你的文件名
+                sheet = workbook.sheet_by_index(0)  # 选择第一个工作表
+                print(sheet.row_values(0))
+                if sheet.row_values(0) != format:
+                    self.we.box_information("导入失败，{} 文件格式不正确".format(data))
+                    return
+
+            for data in self.text:  # 模板文件复制函数
+                shutil.copy(data, self.filename_original)
 
             filename_list = [] # 文件名列表
 
@@ -57,9 +69,6 @@ class append_file(tem_property_data):
                 listWidget_data.append(listWidget.item(num).text())
 
             listWidget.addItems(filename_list_changed)
-
-            for data in self.text:  # 替换模板文件复制函数
-                shutil.copy(data, self.filename_original)
 
             for filename in os.listdir(self.filename_original):
                 if filename.endswith('.xls'):

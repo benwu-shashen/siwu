@@ -5,27 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91a3fed8-a038-4455-affe-4e4ea8897a0d" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/Auto_wed_current/Auto_UI/GUI_Untitled/untitled_test.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_Download_template/post_download_template.py" beforeDir="false" afterPath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_Download_template/post_download_template.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_Perform/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_Perform/post_perform.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_Template/GIU_Post_Template_File/append_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_Template/GIU_Post_Template_File/append_file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_Template/GIU_Post_Template_File/delete_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_Template/GIU_Post_Template_File/delete_file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_Template/GUI_Post_Template_Perform/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_Template/GUI_Post_Template_Perform/post_template_perform.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_Template/GUI_Post_Template_Thread/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_Template/GUI_Post_Template_Thread/post_template_append.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_Template/GUI_Post_Template_Thread/post_template_delete.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_Template/post_template.py" beforeDir="false" afterPath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_Template/post_template.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_Untitled/untitled_post.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_Untitled/untitled_post.ui" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/post_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/post_window.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_UI/GUI_Logging/log_file/202409error.log" beforeDir="false" afterPath="$PROJECT_DIR$/Auto_wed_current/Auto_UI/GUI_Logging/log_file/202409error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_base/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/Auto_wed_current/Auto_base/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_driver/driver_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/Auto_wed_current/Auto_driver/driver_class.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_file/原始导入excel模板/原始模板V1.0.xls" beforeDir="false" afterPath="$PROJECT_DIR$/Auto_wed_current/Auto_file/原始导入excel模板/原始模板V1.0.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_file/接口CSV模板/接口模板.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auto_wed_current/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Auto_wed_current/test1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_Untitled/untitled_post.py" beforeDir="false" afterPath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_Untitled/untitled_post.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_Untitled/untitled_post.ui" beforeDir="false" afterPath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_Untitled/untitled_post.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_file/接口CSV模板/原始模板V1.0.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_file/接口CSV模板/替换模板V1.0.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auto_wed_current/test_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/Auto_wed_current/test_02.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,24 +29,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.test1.executor": "Run",
-    "Python.web_qt_gui.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/16946/Desktop/siwu",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.externalTools",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.test1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_02.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.web_qt_gui.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/16946/Desktop/siwu/Auto_wed_current&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.externalTools&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\16946\Desktop\siwu\Auto_wed_current" />
       <recent name="C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_UI\GUI_Untitled" />
       <recent name="C:\Users\16946\Desktop\pythonProject\Auto_wed_current\Auto_UI" />
     </key>
@@ -104,6 +92,29 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Auto_wed_current/test1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Auto_wed_current" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Auto_wed_current/test_02.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -184,6 +195,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.web_qt_gui" />
+        <item itemvalue="Python.test_02" />
         <item itemvalue="Python.test1" />
       </list>
     </recent_temporary>
@@ -234,6 +246,8 @@
       <workItem from="1727365557055" duration="984000" />
       <workItem from="1727444209220" duration="2431000" />
       <workItem from="1727448600975" duration="6322000" />
+      <workItem from="1727507068984" duration="2351000" />
+      <workItem from="1727509573845" duration="184000" />
     </task>
     <servers />
   </component>
@@ -252,8 +266,9 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/siwu$web_qt_gui.coverage" NAME="web_qt_gui 覆盖结果" MODIFIED="1727455178542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Auto_wed_current/Auto_UI" />
+    <SUITE FILE_PATH="coverage/siwu$web_qt_gui.coverage" NAME="web_qt_gui 覆盖结果" MODIFIED="1727509369521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Auto_wed_current/Auto_UI" />
     <SUITE FILE_PATH="coverage/pythonProject$web_qt_gui.coverage" NAME="web_qt_gui 覆盖结果" MODIFIED="1726908319588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Auto_wed_current/Auto_UI" />
+    <SUITE FILE_PATH="coverage/siwu$test_02.coverage" NAME="test_02 覆盖结果" MODIFIED="1727508514704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Auto_wed_current" />
     <SUITE FILE_PATH="coverage/siwu$test1.coverage" NAME="test1 覆盖结果" MODIFIED="1727447977811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Auto_wed_current" />
   </component>
 </project>
