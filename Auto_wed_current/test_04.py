@@ -1,30 +1,28 @@
-﻿# class Test_错误密码:
-#
-#     def test_C001001(self):
-#         print('\n用例C001001')
-#         assert 1 == 1
-#
-#     def test_C001002(self):
-#         print('\n用例C001002')
-#         assert 2 == 2
-#
-#     def test_C001003(self):
-#         print('\n用例C001003')
-#         assert 3 == 2
-# 定义要写入文件的内容
-# class_code = '''
-# class MyClass:
-#     def __init__(self, value):
-#         self.value = value
-#
-#     def my_method(self):
-#         return f'Value is {self.value}'
-#
-#     def add(self, x, y):
-#         return x + y
-# '''
-#
-# # 写入到.py文件
-# with open('my_script.py', 'w') as file:
-#     file.write(class_code)
+﻿from PyQt6 import QtWidgets, QtCore
 
+class MyScrollArea(QtWidgets.QScrollArea):
+    def __init__(self, parent=None):
+        super(MyScrollArea, self).__init__(parent)
+        self.setVerticalScrollBarPolicy(QtCore.Qt.ScrollBarPolicy.ScrollBarAlwaysOff)
+
+    def wheelEvent(self, event):
+        # 忽略滚轮事件
+        event.ignore()
+
+if __name__ == "__main__":
+    import sys
+
+    app = QtWidgets.QApplication(sys.argv)
+    window = QtWidgets.QWidget()
+    layout = QtWidgets.QVBoxLayout(window)
+
+    scroll_area = MyScrollArea()
+    content = QtWidgets.QWidget()
+    content.setMinimumSize(400, 800)  # 设置内容的最小尺寸以确保可以滚动
+    scroll_area.setWidget(content)
+
+    layout.addWidget(scroll_area)
+    window.setLayout(layout)
+    window.show()
+
+    sys.exit(app.exec())

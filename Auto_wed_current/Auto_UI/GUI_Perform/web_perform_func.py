@@ -31,7 +31,6 @@ class web_perform_func(property_data):
         self.cb = web_combobox() # 初始化行数，默认添加一行，初始化选项数据
         self.cw = self.cb.cw # 获取当前csv内存数据
         web_template_perform.web_perform_func.cb = self.cb
-        self.dt = web_download_template() # 模板下载
         self.tp = web_template()  # 编辑模板
         self.wr = web_report() # 测试报告函数
         self.we = web_error() # 报错函数
@@ -63,7 +62,6 @@ class web_perform_func(property_data):
         self.pushButton_resume.clicked.connect(self.perform_resume)
         self.pushButton_end.clicked.connect(self.perform_end)
         self.pushButton_edit_template.clicked.connect(self.edit_template)  # 点击编辑模板，取至web_qt_gui
-        self.pushButton_download_template.clicked.connect(self.dt.download_file)  # 点击模板下载，取至web_qt_gui
         self.pushButton_edit_attachment.clicked.connect(self.edit_attachment) # 点击编辑附件，取至web_qt_gui
         self.pushButton_clear_text.clicked.connect(self.ep.clear_text) # 清空文本
         self.pushButton_parameter_setting.clicked.connect(self.setting_window) # 点击参数设置

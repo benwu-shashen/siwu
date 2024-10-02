@@ -2,10 +2,13 @@
 import sys
 
 from PyQt6 import QtWidgets
-from PyQt6.QtWidgets import QMessageBox, QFileDialog
+from PyQt6.QtWidgets import QMessageBox
 
+from Auto_wed_current.Auto_UI.GUI_ComboBox.web_combobox import web_combobox
+from Auto_wed_current.Auto_UI.GUI_Download_template.web_download_template import web_download_template
 from Auto_wed_current.Auto_UI.GUI_Logging.web_logging_func import wed_logging
 from Auto_wed_current.Auto_UI.GUI_Perform.web_perform_func import web_perform_func
+from Auto_wed_current.Auto_UI.GUI_Template.GUI_Template_Perform import web_template_perform
 from Auto_wed_current.Auto_UI.GUI_Untitled.untitled import Ui_MainWindow
 from Auto_wed_current.Auto_UI.__init__ import property_data
 from Auto_wed_current.Auto_driver.driver_class import driver_class
@@ -19,7 +22,15 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         super().__init__()
         self.setupUi(self)
 
-        self.control_property() # 赋值按钮控件函数
+        self.control_property()  # 赋值按钮控件函数
+
+        self.dt = web_download_template()  # 模板下载
+        self.cb = web_combobox()  # 初始化行数，默认添加一行，初始化选项数据
+        self.cw = self.cb.cw  # 获取当前csv内存数据
+        web_template_perform.web_perform_func.cb = self.cb
+        # self.tp = web_template()  # 编辑模板
+
+        self.perform_connect() # 信号连接
         web_perform_func()
         wed_logging()
 
@@ -44,6 +55,10 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 
         elif messageBox.clickedButton() == buttonN:
             event.ignore()
+
+    def perform_connect(self):
+        self.pushButton_download_template.clicked.connect(self.dt.download_file)  # 点击模板下载，取至web_qt_gui
+        # self.pushButton_edit_template.clicked.connect(self.edit_template)  # 点击编辑模板，取至web_qt_gui
 
     def control_property(self): # 所有控件属性
         # 按钮控件
@@ -83,6 +98,9 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         # 打开接口窗口
         property_data.pushButton_post = self.pushButton_post
 
+    # def edit_template(self):
+    #     self.tp.setWindowModality(Qt.WindowModality.ApplicationModal)
+    #     self.tp.show()
 
 if __name__ == '__main__':
     app = QtWidgets.QApplication(sys.argv)

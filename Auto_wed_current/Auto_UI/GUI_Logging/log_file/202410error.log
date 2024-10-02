@@ -1,0 +1,91 @@
+2024-10-01 12:18:21,468 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_UI\GUI_Perform\web_perform_func.py", line 139, in open_interface
+    self.pw = post_window()  # 打开接口窗口
+              ^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\post_window.py", line 29, in __init__
+    self.cb = post_combobox()  # 初始化行数，默认添加一行，初始化选项数据
+              ^^^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_ComboBox\post_combobox.py", line 31, in __init__
+    self.append_line()
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_ComboBox\post_combobox.py", line 173, in append_line
+    self.append_signal_trigger(self.num)
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_ComboBox\post_combobox.py", line 121, in append_signal_trigger
+    self.control_dict[line]['box_template'].currentIndexChanged.connect(control_groove_locals[i + 'test'])
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'box_template'
+
+2024-10-02 10:02:56,372 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_UI\GUI_Perform\web_perform_func.py", line 139, in open_interface
+    self.pw = post_window()  # 打开接口窗口
+              ^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\post_window.py", line 29, in __init__
+    self.cb = post_combobox()  # 初始化行数，默认添加一行，初始化选项数据
+              ^^^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_ComboBox\post_combobox.py", line 35, in __init__
+    self.append_line()
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_ComboBox\post_combobox.py", line 182, in append_line
+    self.append_signal_trigger(self.num)
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_ComboBox\post_combobox.py", line 129, in append_signal_trigger
+    self.control_dict[line]['box_file'].currentIndexChanged.connect(self.pf.preview_button_isbool(control_locals_file, control_locals_preview))
+TypeError: argument 1 has unexpected type 'NoneType'
+
+2024-10-02 10:02:57,929 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_UI\GUI_Perform\web_perform_func.py", line 139, in open_interface
+    self.pw = post_window()  # 打开接口窗口
+              ^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\post_window.py", line 29, in __init__
+    self.cb = post_combobox()  # 初始化行数，默认添加一行，初始化选项数据
+              ^^^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_ComboBox\post_combobox.py", line 35, in __init__
+    self.append_line()
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_ComboBox\post_combobox.py", line 182, in append_line
+    self.append_signal_trigger(self.num)
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_ComboBox\post_combobox.py", line 129, in append_signal_trigger
+    self.control_dict[line]['box_file'].currentIndexChanged.connect(self.pf.preview_button_isbool(control_locals_file, control_locals_preview))
+TypeError: argument 1 has unexpected type 'NoneType'
+
+2024-10-02 10:10:16,442 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_UI\GUI_Perform\web_perform_func.py", line 139, in open_interface
+    self.pw = post_window()  # 打开接口窗口
+              ^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\post_window.py", line 29, in __init__
+    self.cb = post_combobox()  # 初始化行数，默认添加一行，初始化选项数据
+              ^^^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_ComboBox\post_combobox.py", line 35, in __init__
+    self.append_line()
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_ComboBox\post_combobox.py", line 182, in append_line
+    self.append_signal_trigger(self.num)
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_ComboBox\post_combobox.py", line 129, in append_signal_trigger
+    self.control_dict[line]['box_file'].currentIndexChanged.connect(self.pf.preview_button_isbool(control_locals_file, control_locals_preview))
+TypeError: argument 1 has unexpected type 'NoneType'
+
+2024-10-02 10:13:24,780 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_UI\GUI_Perform\web_perform_func.py", line 139, in open_interface
+    self.pw = post_window()  # 打开接口窗口
+              ^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\post_window.py", line 29, in __init__
+    self.cb = post_combobox()  # 初始化行数，默认添加一行，初始化选项数据
+              ^^^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_ComboBox\post_combobox.py", line 35, in __init__
+    self.append_line()
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_ComboBox\post_combobox.py", line 182, in append_line
+    self.append_signal_trigger(self.num)
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_ComboBox\post_combobox.py", line 129, in append_signal_trigger
+    self.control_dict[line]['box_file'].currentIndexChanged.connect(self.pf.preview_button_isbool(control_locals_file, control_locals_preview))
+TypeError: argument 1 has unexpected type 'NoneType'
+
+2024-10-02 10:18:40,090 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_UI\GUI_Perform\web_perform_func.py", line 139, in open_interface
+    self.pw = post_window()  # 打开接口窗口
+              ^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\post_window.py", line 29, in __init__
+    self.cb = post_combobox()  # 初始化行数，默认添加一行，初始化选项数据
+              ^^^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_ComboBox\post_combobox.py", line 35, in __init__
+    self.append_line()
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_ComboBox\post_combobox.py", line 186, in append_line
+    self.append_signal_trigger(self.num)
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_ComboBox\post_combobox.py", line 130, in append_signal_trigger
+    self.control_dict[line]['box_file'].currentIndexChanged.connect(control_groove_locals)
+TypeError: argument 1 has unexpected type 'dict'
+

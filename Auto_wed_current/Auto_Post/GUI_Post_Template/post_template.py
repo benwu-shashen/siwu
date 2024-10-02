@@ -16,20 +16,20 @@ class post_template(QtWidgets.QMainWindow, Ui_Form_Template):
     closed = pyqtSignal()
     def __init__(self):
         super().__init__()
-        self.filename_original = filename().filename_func(r'\Auto_file\接口CSV模板')
         self.setupUi(self)
 
-        self.pushButton_original_delete.setEnabled(False)
+        self.control_property()
 
+        self.filename_original = filename().filename_func(r'\Auto_file\接口CSV模板')
+        self.pushButton_original_delete.setEnabled(False)
         self.tb = post_template_button()
         self.listWidget_original.itemSelectionChanged.connect(
             lambda: self.template_button_del(self.listWidget_original))
-
         self.af = append_file()
         self.df = delete_file()
         self.te_of = template_open_file()
 
-        self.control_property()
+        self.perform_connect()
         template_show()  # 初始页面展示
 
     def template_open_orfile(self):
@@ -51,7 +51,7 @@ class post_template(QtWidgets.QMainWindow, Ui_Form_Template):
             elif select == False:
                 self.tb.template_original_bf()
 
-    def control_property(self):  # 所有控件属性
+    def perform_connect(self):
         # 取消和关闭窗口槽函数
         self.pushButton_template_quit.clicked.connect(self.close)
 
@@ -64,6 +64,7 @@ class post_template(QtWidgets.QMainWindow, Ui_Form_Template):
         # 原始模板，双击选项，打开选项文件
         self.listWidget_original.doubleClicked.connect(self.template_open_orfile)
 
+    def control_property(self):  # 所有控件属性
         # 模板窗口按钮
         tem_property_data.pushButton_original_append = self.pushButton_original_append  # 原始模板添加
         tem_property_data.pushButton_original_delete = self.pushButton_original_delete  # 原始模板删除

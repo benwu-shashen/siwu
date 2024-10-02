@@ -61,9 +61,9 @@ class append_file(tem_property_data):
             filename_list_changed = []
             for filename in filename_list:
                 filename_list_changed.append(filename.replace('.xls', '.csv'))
-            if filename in filename_list_changed:
-                self.QMessageBox_error()
-                return
+                if filename in filename_list:
+                    self.QMessageBox_error()
+                    return
 
             for num in range(count): # 遍历listwidget中的内容
                 listWidget_data.append(listWidget.item(num).text())
