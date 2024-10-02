@@ -22,10 +22,10 @@ class post_window(QtWidgets.QMainWindow, Ui_Form_Post):
 
         self.post_tableWidget_setting()
         self.dt = post_download_template()  # 模板下载
-        self.et = execute_thread()
         self.bt = post_button_IsEnabled()
         self.tp = post_template() # 编辑模板
         self.cb = post_combobox()  # 初始化行数，默认添加一行，初始化选项数据
+        self.et = execute_thread(self.cb.control_dict)
         self.filename_original = filename().filename_func(r'\Auto_file\接口CSV模板')
 
         self.perform_connect()

@@ -87,6 +87,15 @@ class post_combobox(post_property_data):
         if 'box_file' in key:
             self.control_dict[delete_line][key].move(10, y)
 
+        elif 'bu_add' == key:
+            self.control_dict[delete_line][key].move(300, y)
+
+        elif 'bu_del' == key:
+            self.control_dict[delete_line][key].move(380, y)
+
+        elif 'bu_preview' == key:
+            self.control_dict[delete_line][key].move(460, y)
+
     def append_title(self):
         """
         标题文字
@@ -116,21 +125,20 @@ class post_combobox(post_property_data):
                 self.control_dict[line][i].clicked.connect(self.append_line)
 
             elif 'bu_del' in i:
-                control_locals = self.control_dict[line][i]
-                control_groove_locals[i + 'test'] = lambda: self.delete_line(control_locals)
+                control_locals_del_bu_del = self.control_dict[line][i]
+                control_groove_locals[i + 'test'] = lambda: self.delete_line(control_locals_del_bu_del)
                 self.control_dict[line][i].clicked.connect(control_groove_locals[i + 'test'])
 
             elif 'bu_preview' in i:
-                control_locals = self.control_dict[line][i]
                 control_groove_locals[i + 'test'] = lambda: self.preview_line(self.control_dict[line]['box_file'].currentText())
                 self.control_dict[line][i].clicked.connect(control_groove_locals[i + 'test'])
 
             elif 'box_file' in i:
-                control_locals_file = self.control_dict[line]['box_file']
-                control_locals_preview = self.control_dict[line]['bu_preview']
-                control_groove_locals[i + 'test'] = lambda: self.pf.preview_button_isbool(control_locals_file, control_locals_preview)
+                control_locals_file_box_file = self.control_dict[line]['box_file']
+                control_locals_file_bu_preview = self.control_dict[line]['bu_preview']
+                control_groove_locals[i + 'test'] = lambda: self.pf.preview_button_isbool(control_locals_file_box_file, control_locals_file_bu_preview)
                 self.control_dict[line]['box_file'].currentIndexChanged.connect(control_groove_locals[i + 'test'])
-                self.pf.option_value(control_locals_file)
+                self.pf.option_value(control_locals_file_box_file)
                 # control_groove_locals[i + 'csv'] = lambda: self.cw.csv_data_append(control_locals_file)
                 # self.control_dict[line]['box_file'].currentIndexChanged.connect(control_groove_locals[i + 'csv'])
 
@@ -207,7 +215,7 @@ class post_combobox(post_property_data):
 
                 self.num -= 1
                 num_loacls = 1
-                self.cw.csv_data_delete(line)
+                # self.cw.csv_data_delete(line)
                 del self.control_dict[line]
                 control_dict_loacls = {}
                 for i in self.control_dict:
@@ -228,9 +236,6 @@ class post_combobox(post_property_data):
 
                 del self.control_groove
                 self.control_groove = control_dict_loacls
-
-                del self.isBox_file_dict[line - 1]
-
                 break
 
         for i in self.control_dict:
@@ -264,12 +269,3 @@ class post_combobox(post_property_data):
                     # 设置为只读
                     items.setFlags(items.flags() & ~Qt.ItemFlag.ItemIsEditable)
                     self.tableWidget_preview.setItem(row_position, col, items)
-
-    def isBox_file_dict_bool(self, comboBox_template):
-        return self.isBox_file_dict[self.reture_Box_line_dict(comboBox_template)]
-
-    # def reture_Box_line_dict(self, comboBox_template):
-    #     for line in self.control_dict:
-    #         if self.control_dict[line]['box_template'] == comboBox_template:
-    #             return line - 1
-    #     return None

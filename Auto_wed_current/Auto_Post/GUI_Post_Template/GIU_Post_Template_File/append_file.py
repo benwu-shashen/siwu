@@ -33,13 +33,9 @@ class append_file(tem_property_data):
             for data in self.text:  # 模板文件复制函数
                 workbook = xlrd.open_workbook(data)  # 替换为你的文件名
                 sheet = workbook.sheet_by_index(0)  # 选择第一个工作表
-                print(sheet.row_values(0))
                 if sheet.row_values(0) != format:
                     self.we.box_information("导入失败，{} 文件格式不正确".format(data))
                     return
-
-            for data in self.text:  # 模板文件复制函数
-                shutil.copy(data, self.filename_original)
 
             filename_list = [] # 文件名列表
 
@@ -58,15 +54,20 @@ class append_file(tem_property_data):
             listWidget_data = []
             count = listWidget.count() # 获取条目数
 
+            for num in range(count): # 遍历listwidget中的内容
+                listWidget_data.append(listWidget.item(num).text())
+
             filename_list_changed = []
             for filename in filename_list:
                 filename_list_changed.append(filename.replace('.xls', '.csv'))
-                if filename in filename_list:
+
+            for filename in filename_list_changed:
+                if filename in listWidget_data:
                     self.QMessageBox_error()
                     return
 
-            for num in range(count): # 遍历listwidget中的内容
-                listWidget_data.append(listWidget.item(num).text())
+            for data in self.text:  # 模板文件复制函数
+                shutil.copy(data, self.filename_original)
 
             listWidget.addItems(filename_list_changed)
 
