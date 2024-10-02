@@ -13,7 +13,6 @@ from Auto_wed_current.Auto_Post.__init__ import post_property_data
 from Auto_wed_current.Auto_Post.GUI_Post_Untitled.untitled_post import Ui_Form_Post
 from Auto_wed_current.Auto_base.filename import filename
 
-
 class post_window(QtWidgets.QMainWindow, Ui_Form_Post):
     def __init__(self):
         super(post_window, self).__init__()
@@ -35,7 +34,6 @@ class post_window(QtWidgets.QMainWindow, Ui_Form_Post):
         self.pushButton_download_template.clicked.connect(self.dt.download_file) # 下载模板
         self.pushButton_post_start.clicked.connect(self.et.start)  # 执行接口测试
         self.pushButton_edit_template.clicked.connect(self.edit_template)  # 编辑模板
-        self.pushButton_post_preview.clicked.connect(self.post_tableWidget_preview)  # 预览数据
         self.et.set_Enabled_bf.connect(self.bt.set_Enabled_bf)
         self.et.set_Enabled_af.connect(self.bt.set_Enabled_af)
 
@@ -47,7 +45,6 @@ class post_window(QtWidgets.QMainWindow, Ui_Form_Post):
         post_property_data.pushButton_download_template = self.pushButton_download_template # 下载模板
         post_property_data.pushButton_edit_template = self.pushButton_edit_template  # 编辑模板
         post_property_data.tableWidget_preview = self.tableWidget_preview # 表格
-        post_property_data.pushButton_post_preview = self.pushButton_post_preview # 预览
 
     def post_tableWidget_setting(self):
         self.tableWidget_preview.setHorizontalHeaderLabels([
@@ -58,20 +55,6 @@ class post_window(QtWidgets.QMainWindow, Ui_Form_Post):
     def edit_template(self):
         self.tp.setWindowModality(Qt.WindowModality.ApplicationModal)
         self.tp.show()
-
-    def post_tableWidget_preview(self): # 填充数据
-        self.tableWidget_preview.setRowCount(0)  # 清空所有行
-        path = filename().filename_func(r'\Auto_file\接口CSV模板\接口模板.csv')
-        with open(path, 'r', newline='', encoding='utf-8') as f:
-            csv_reader = csv.reader(f)
-            next(csv_reader)  # 跳过第一行
-            for row in csv_reader:
-                row_position = self.tableWidget_preview.rowCount()
-                self.tableWidget_preview.insertRow(row_position)
-
-                for col, item in enumerate(row):
-                    self.tableWidget_preview.setItem(row_position, col, QTableWidgetItem(item))
-
 
     def closeEvent(self, event):
         messageBox = QMessageBox()

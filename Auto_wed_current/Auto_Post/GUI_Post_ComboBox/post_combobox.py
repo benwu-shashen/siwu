@@ -1,6 +1,7 @@
-import os
+import csv
 
 from PyQt6 import QtCore
+from PyQt6.QtCore import Qt
 from PyQt6.QtWidgets import *
 
 from Auto_wed_current.Auto_Post.GUI_Post_CSV.post_csv_write import post_csv_write
@@ -12,6 +13,7 @@ from Auto_wed_current.Auto_base.filename import filename
 class post_combobox(post_property_data):
     def __init__(self):
         super().__init__()
+        self.path = filename().filename_func(r'\Auto_file\接口CSV模板')
         self.topFiller = QWidget()
         self.num = 0
         self.scroll = QScrollArea()
@@ -120,7 +122,7 @@ class post_combobox(post_property_data):
 
             elif 'bu_preview' in i:
                 control_locals = self.control_dict[line][i]
-                control_groove_locals[i + 'test'] = lambda: self.preview_line(control_locals)
+                control_groove_locals[i + 'test'] = lambda: self.preview_line(self.control_dict[line]['box_file'].currentText())
                 self.control_dict[line][i].clicked.connect(control_groove_locals[i + 'test'])
 
             elif 'box_file' in i:
@@ -133,9 +135,6 @@ class post_combobox(post_property_data):
                 # self.control_dict[line]['box_file'].currentIndexChanged.connect(control_groove_locals[i + 'csv'])
 
         self.control_groove[line] = control_groove_locals
-
-    def test_01(self):
-        print("你好")
 
     def append_line(self): # 新增函数
         """
@@ -250,8 +249,21 @@ class post_combobox(post_property_data):
         elif self.num < 9:
             self.scroll.setVerticalScrollBarPolicy(QtCore.Qt.ScrollBarPolicy.ScrollBarAlwaysOff)
 
-    def preview_line(self, v):  # 预览功能
-        pass
+    def preview_line(self, comboBox_preview_text):  # 预览功能
+        self.tableWidget_preview.setRowCount(0)  # 清空所有行
+        path = r"{}\{}".format(self.path, comboBox_preview_text)
+        with open(path, 'r', newline='', encoding='utf-8') as f:
+            csv_reader = csv.reader(f)
+            next(csv_reader)  # 跳过第一行
+            for row in csv_reader:
+                row_position = self.tableWidget_preview.rowCount()
+                self.tableWidget_preview.insertRow(row_position)
+
+                for col, item in enumerate(row):
+                    items = QTableWidgetItem(item)
+                    # 设置为只读
+                    items.setFlags(items.flags() & ~Qt.ItemFlag.ItemIsEditable)
+                    self.tableWidget_preview.setItem(row_position, col, items)
 
     def isBox_file_dict_bool(self, comboBox_template):
         return self.isBox_file_dict[self.reture_Box_line_dict(comboBox_template)]

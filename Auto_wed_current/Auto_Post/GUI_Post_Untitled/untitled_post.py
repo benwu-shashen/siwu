@@ -46,15 +46,6 @@ class Ui_Form_Post(object):
         self.tableWidget_preview.setColumnCount(9)
         self.tableWidget_preview.setObjectName("tableWidget_preview")
         self.tableWidget_preview.horizontalHeader().setDefaultSectionSize(82)
-        self.pushButton_post_preview = QtWidgets.QPushButton(parent=Form_Post)
-        self.pushButton_post_preview.setGeometry(QtCore.QRect(680, 320, 75, 23))
-        self.pushButton_post_preview.setCursor(QtGui.QCursor(QtCore.Qt.CursorShape.PointingHandCursor))
-        self.pushButton_post_preview.setStyleSheet("QPushButton {\n"
-"border:2px solid rgb(0, 0, 0);\n"
-"border-radius: 5px;\n"
-"background-color: rgb(0, 0, 0, 0);\n"
-"}")
-        self.pushButton_post_preview.setObjectName("pushButton_post_preview")
         self.frame_box = QtWidgets.QFrame(parent=Form_Post)
         self.frame_box.setGeometry(QtCore.QRect(80, 80, 581, 201))
         self.frame_box.setStyleSheet("")
@@ -71,4 +62,3 @@ class Ui_Form_Post(object):
         self.pushButton_download_template.setText(_translate("Form_Post", "下载模板"))
         self.pushButton_edit_template.setText(_translate("Form_Post", "编辑模板"))
         self.pushButton_post_start.setText(_translate("Form_Post", "开始执行"))
-        self.pushButton_post_preview.setText(_translate("Form_Post", "预览数据"))

@@ -5,24 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91a3fed8-a038-4455-affe-4e4ea8897a0d" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_CSV/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_CSV/post_csv_write.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_ComboBox/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_ComboBox/post_combobox.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_ComboBox/post_combobox_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Auto_wed_current/Auto_file/接口CSV模板/接口模板1.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Auto_wed_current/Auto_file/接口CSV模板/接口模板2.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_ComboBox/post_combobox_preview.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_Template/GIU_Post_Template_File/append_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_Template/GIU_Post_Template_File/append_file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_Template/post_template.py" beforeDir="false" afterPath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_Template/post_template.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_Untitled/untitled_post_template.py" beforeDir="false" afterPath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_Untitled/untitled_post_template.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_ComboBox/post_combobox.py" beforeDir="false" afterPath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_ComboBox/post_combobox.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_Untitled/untitled_post.py" beforeDir="false" afterPath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_Untitled/untitled_post.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_Untitled/untitled_post.ui" beforeDir="false" afterPath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_Untitled/untitled_post.ui" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/post_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/post_window.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_UI/GUI_ComboBox/web_combobox.py" beforeDir="false" afterPath="$PROJECT_DIR$/Auto_wed_current/Auto_UI/GUI_ComboBox/web_combobox.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_UI/GUI_Logging/log_file/202409error.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_UI/GUI_Perform/web_perform_func.py" beforeDir="false" afterPath="$PROJECT_DIR$/Auto_wed_current/Auto_UI/GUI_Perform/web_perform_func.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_UI/web_qt_gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/Auto_wed_current/Auto_UI/web_qt_gui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auto_wed_current/test_04.py" beforeDir="false" afterPath="$PROJECT_DIR$/Auto_wed_current/test_04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_file/接口CSV模板/接口模板.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Auto_wed_current/Auto_file/接口CSV模板/接口模板.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_file/接口CSV模板/接口模板2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Auto_wed_current/Auto_file/接口CSV模板/接口模板2.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +30,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -55,10 +45,10 @@
     "Python.test1.executor": "Run",
     "Python.test_02.executor": "Debug",
     "Python.test_04.executor": "Run",
-    "Python.web_qt_gui.executor": "Run",
+    "Python.web_qt_gui.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/16946/Desktop/siwu/Auto_wed_current/Auto_file/接口CSV模板",
+    "last_opened_file_path": "C:/Users/16946/Desktop/siwu/Auto_wed_current/Auto_Post/GUI_Post_ComboBox",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -68,15 +58,10 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="QodanaReportsService">
-    <option name="descriptions">
-      <ReportDescription localRun="true" path="C:\Users\16946\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="01c3ce56-0266-449e-8726-ca2688203df9" reportId="siwu/qodana/2024-09-29" />
-    </option>
-  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_file\接口CSV模板" />
       <recent name="C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_ComboBox" />
+      <recent name="C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_file\接口CSV模板" />
       <recent name="C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post" />
       <recent name="C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_Untitled" />
       <recent name="C:\Users\16946\Desktop\siwu\Auto_wed_current" />
@@ -314,6 +299,7 @@
       <workItem from="1727761522925" duration="645000" />
       <workItem from="1727832066709" duration="2613000" />
       <workItem from="1727834767952" duration="1521000" />
+      <workItem from="1727837569886" duration="2861000" />
     </task>
     <servers />
   </component>
@@ -340,20 +326,15 @@
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_ComboBox/post_combobox_file.py</url>
-          <line>19</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_ComboBox/post_combobox.py</url>
-          <line>129</line>
-          <option name="timeStamp" value="17" />
+          <line>192</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/siwu$web_qt_gui.coverage" NAME="web_qt_gui 覆盖结果" MODIFIED="1727837386975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Auto_wed_current/Auto_UI" />
+    <SUITE FILE_PATH="coverage/siwu$web_qt_gui.coverage" NAME="web_qt_gui 覆盖结果" MODIFIED="1727840448582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Auto_wed_current/Auto_UI" />
     <SUITE FILE_PATH="coverage/pythonProject$web_qt_gui.coverage" NAME="web_qt_gui 覆盖结果" MODIFIED="1726908319588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Auto_wed_current/Auto_UI" />
     <SUITE FILE_PATH="coverage/siwu$test_04.coverage" NAME="test_04 覆盖结果" MODIFIED="1727669955186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Auto_wed_current" />
     <SUITE FILE_PATH="coverage/siwu$test_02.coverage" NAME="test_02 覆盖结果" MODIFIED="1727508514704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Auto_wed_current" />
