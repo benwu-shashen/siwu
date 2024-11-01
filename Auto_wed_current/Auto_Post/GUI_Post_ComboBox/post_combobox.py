@@ -2,6 +2,7 @@ import csv
 
 from PyQt6 import QtCore
 from PyQt6.QtCore import Qt
+from PyQt6.QtGui import QCursor
 from PyQt6.QtWidgets import *
 
 from Auto_wed_current.Auto_Post.GUI_Post_CSV.post_csv_write import post_csv_write
@@ -269,3 +270,8 @@ class post_combobox(post_property_data):
                     # 设置为只读
                     items.setFlags(items.flags() & ~Qt.ItemFlag.ItemIsEditable)
                     self.tableWidget_preview.setItem(row_position, col, items)
+
+        # 连接鼠标移动事件
+        self.tableWidget_preview.cellClicked.connect(self.show_tooltip)
+
+    def show_tooltip(self, row, column):

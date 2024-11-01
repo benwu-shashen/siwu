@@ -12,7 +12,7 @@ from PyQt6 import QtCore, QtGui, QtWidgets
 class Ui_Form_Post(object):
     def setupUi(self, Form_Post):
         Form_Post.setObjectName("Form_Post")
-        Form_Post.resize(800, 596)
+        Form_Post.resize(800, 707)
         self.pushButton_download_template = QtWidgets.QPushButton(parent=Form_Post)
         self.pushButton_download_template.setGeometry(QtCore.QRect(680, 90, 75, 23))
         self.pushButton_download_template.setCursor(QtGui.QCursor(QtCore.Qt.CursorShape.PointingHandCursor))
@@ -32,7 +32,7 @@ class Ui_Form_Post(object):
 "}")
         self.pushButton_edit_template.setObjectName("pushButton_edit_template")
         self.pushButton_post_start = QtWidgets.QPushButton(parent=Form_Post)
-        self.pushButton_post_start.setGeometry(QtCore.QRect(50, 330, 75, 23))
+        self.pushButton_post_start.setGeometry(QtCore.QRect(680, 210, 75, 23))
         self.pushButton_post_start.setCursor(QtGui.QCursor(QtCore.Qt.CursorShape.PointingHandCursor))
         self.pushButton_post_start.setStyleSheet("QPushButton {\n"
 "border:2px solid rgb(0, 0, 0);\n"
@@ -41,17 +41,34 @@ class Ui_Form_Post(object):
 "}")
         self.pushButton_post_start.setObjectName("pushButton_post_start")
         self.tableWidget_preview = QtWidgets.QTableWidget(parent=Form_Post)
-        self.tableWidget_preview.setGeometry(QtCore.QRect(20, 390, 751, 192))
+        self.tableWidget_preview.setGeometry(QtCore.QRect(20, 490, 741, 192))
         self.tableWidget_preview.setRowCount(0)
         self.tableWidget_preview.setColumnCount(9)
         self.tableWidget_preview.setObjectName("tableWidget_preview")
         self.tableWidget_preview.horizontalHeader().setDefaultSectionSize(82)
         self.frame_box = QtWidgets.QFrame(parent=Form_Post)
-        self.frame_box.setGeometry(QtCore.QRect(80, 80, 581, 201))
+        self.frame_box.setGeometry(QtCore.QRect(50, 10, 581, 201))
         self.frame_box.setStyleSheet("")
         self.frame_box.setFrameShape(QtWidgets.QFrame.Shape.StyledPanel)
         self.frame_box.setFrameShadow(QtWidgets.QFrame.Shadow.Raised)
         self.frame_box.setObjectName("frame_box")
+        self.label_2 = QtWidgets.QLabel(parent=Form_Post)
+        self.label_2.setGeometry(QtCore.QRect(20, 470, 54, 12))
+        self.label_2.setStyleSheet("")
+        self.label_2.setObjectName("label_2")
+        self.label = QtWidgets.QLabel(parent=Form_Post)
+        self.label.setGeometry(QtCore.QRect(20, 240, 54, 12))
+        self.label.setStyleSheet("")
+        self.label.setObjectName("label")
+        self.textEdit = QtWidgets.QTextEdit(parent=Form_Post)
+        self.textEdit.setGeometry(QtCore.QRect(20, 260, 741, 200))
+        self.textEdit.setStyleSheet("QTextEdit {\n"
+"border:2px solid rgb(0, 0, 0);\n"
+"border-radius: 10px;\n"
+"background-color: rgb(0, 0, 0, 0);\n"
+"}")
+        self.textEdit.setReadOnly(True)
+        self.textEdit.setObjectName("textEdit")
 
         self.retranslateUi(Form_Post)
         QtCore.QMetaObject.connectSlotsByName(Form_Post)
@@ -62,3 +79,5 @@ class Ui_Form_Post(object):
         self.pushButton_download_template.setText(_translate("Form_Post", "下载模板"))
         self.pushButton_edit_template.setText(_translate("Form_Post", "编辑模板"))
         self.pushButton_post_start.setText(_translate("Form_Post", "开始执行"))
+        self.label_2.setText(_translate("Form_Post", "预览数据"))
+        self.label.setText(_translate("Form_Post", "执行结果"))
