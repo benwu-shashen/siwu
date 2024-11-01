@@ -25,6 +25,7 @@ class driver_class:
         if account == 'account_01':
             return self.driver_01
 
+    # 注意，这里的端口要和上面的端口一致，否则不会执行后面的代码chrome.exe --remote-debugging-port=9527   15行，"debuggerAddress", "127.0.0.1:9527"  31行
     def driver_connect(self):
         options = Options()
         options.add_experimental_option("debuggerAddress", "127.0.0.1:9527")

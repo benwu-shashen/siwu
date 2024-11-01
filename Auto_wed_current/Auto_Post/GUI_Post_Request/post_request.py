@@ -19,9 +19,7 @@ class post_request():
         self.execute.af()
         if request[2] == "get":
             r = requests.get(request[3])
-            print(r.status_code)
 
         elif request[2] == "post":
             r = requests.post(request[3])
-            print(r.status_code)
         self.execute.bf()
