@@ -69,6 +69,15 @@ class Ui_Form_Post(object):
 "}")
         self.textEdit.setReadOnly(True)
         self.textEdit.setObjectName("textEdit")
+        self.pushButton_data_clear = QtWidgets.QPushButton(parent=Form_Post)
+        self.pushButton_data_clear.setGeometry(QtCore.QRect(560, 220, 75, 23))
+        self.pushButton_data_clear.setCursor(QtGui.QCursor(QtCore.Qt.CursorShape.PointingHandCursor))
+        self.pushButton_data_clear.setStyleSheet("QPushButton {\n"
+"border:2px solid rgb(0, 0, 0);\n"
+"border-radius: 5px;\n"
+"background-color: rgb(0, 0, 0, 0);\n"
+"}")
+        self.pushButton_data_clear.setObjectName("pushButton_data_clear")
 
         self.retranslateUi(Form_Post)
         QtCore.QMetaObject.connectSlotsByName(Form_Post)
@@ -81,3 +90,4 @@ class Ui_Form_Post(object):
         self.pushButton_post_start.setText(_translate("Form_Post", "开始执行"))
         self.label_2.setText(_translate("Form_Post", "预览数据"))
         self.label.setText(_translate("Form_Post", "执行结果"))
+        self.pushButton_data_clear.setText(_translate("Form_Post", "全部清除"))

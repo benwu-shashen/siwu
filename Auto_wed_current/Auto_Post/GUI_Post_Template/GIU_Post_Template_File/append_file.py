@@ -26,7 +26,7 @@ class append_file(tem_property_data):
         dir = QFileDialog()
         dir.setFileMode(QFileDialog.FileMode.ExistingFiles)  # 设置多选
         dir.setNameFilter('文件(*.xls)') # 只显示xls文件格式
-        format = ['测试编号', '测试名称', '请求类型', '请求url', '请求参数', '响应码', '响应参数', '结果', '说明']
+        format = ['测试编号', '测试名称', '请求类型*', '请求url*', '请求参数', '响应码', '响应参数', '结果', '说明']
 
         if dir.exec() == QFileDialog.DialogCode.Accepted:  # 判断是否选择了文件
             self.text = dir.selectedFiles()
@@ -36,6 +36,16 @@ class append_file(tem_property_data):
                 if sheet.row_values(0) != format:
                     self.we.box_information("导入失败，{} 文件格式不正确".format(data))
                     return
+                line = 1
+                while True:
+                    try:
+                        if sheet.row_values(line)[2] in ['get', 'post']:
+                            if sheet.row_values(line)[3] == '':
+                                self.we.box_information("导入失败，第“{}”行的“请求url”为必填项".format(line))
+                                return
+                            line += 1
+                    except IndexError:
+                        break
 
             filename_list = [] # 文件名列表
 

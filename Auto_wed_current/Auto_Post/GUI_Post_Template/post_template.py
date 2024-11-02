@@ -1,5 +1,6 @@
 from PyQt6 import QtWidgets
 from PyQt6.QtCore import pyqtSignal
+
 from Auto_wed_current.Auto_Post.GUI_Post_Template import tem_property_data
 from Auto_wed_current.Auto_Post.GUI_Post_Template.GIU_Post_Template_File.append_file import append_file
 from Auto_wed_current.Auto_Post.GUI_Post_Template.GIU_Post_Template_File.delete_file import delete_file
@@ -14,10 +15,10 @@ from Auto_wed_current.Auto_base.filename import filename
 
 class post_template(QtWidgets.QMainWindow, Ui_Form_Template):
     closed = pyqtSignal()
-    def __init__(self):
+    def __init__(self, pushButton_data_clear):
         super().__init__()
         self.setupUi(self)
-
+        self.pushButton_data_clear = pushButton_data_clear
         self.control_property()
 
         self.filename_original = filename().filename_func(r'\Auto_file\接口CSV模板')
@@ -31,6 +32,9 @@ class post_template(QtWidgets.QMainWindow, Ui_Form_Template):
 
         self.perform_connect()
         template_show()  # 初始页面展示
+
+    def closeEvent(self, event):
+        self.pushButton_data_clear.click()
 
     def template_open_orfile(self):
         self.te_of.open_orfile()

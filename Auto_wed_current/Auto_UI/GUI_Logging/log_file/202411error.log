@@ -177,3 +177,232 @@ Stacktrace:
 	RtlUserThreadStart [0x00007FFAE71AAF08+40]
 
 
+2024-11-02 17:09:17,196 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\urllib3\connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\urllib3\connectionpool.py", line 490, in _make_request
+    raise new_e
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\urllib3\connectionpool.py", line 466, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1095, in _validate_conn
+    conn.connect()
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\urllib3\connection.py", line 693, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\urllib3\connection.py", line 214, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x000001EE324C1010>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.oioweb.cn', port=443): Max retries exceeded with url: /api/common/OneDayEnglish (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001EE324C1010>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_Thread\post_thread.py", line 24, in run
+    self.pr.issue_resquest(self.post_combobox)
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_Request\post_request.py", line 16, in issue_resquest
+    self.mode_request(row)
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_Request\post_request.py", line 21, in mode_request
+    r = requests.get(request[3])
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.oioweb.cn', port=443): Max retries exceeded with url: /api/common/OneDayEnglish (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001EE324C1010>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+
+2024-11-02 18:11:23,837 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_ComboBox\post_combobox.py", line 44, in data_clear
+    bu_del['bu_del'].click()
+    ~~~~~~^^^^^^^^^^
+TypeError: 'int' object is not subscriptable
+
+2024-11-02 18:13:18,276 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_ComboBox\post_combobox.py", line 44, in data_clear
+    bu_del['bu_del'].click()
+    ^^^^^^
+  File "_pydevd_bundle\\pydevd_cython_win32_311_64.pyx", line 1187, in _pydevd_bundle.pydevd_cython_win32_311_64.SafeCallWrapper.__call__
+  File "_pydevd_bundle\\pydevd_cython_win32_311_64.pyx", line 627, in _pydevd_bundle.pydevd_cython_win32_311_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\\pydevd_cython_win32_311_64.pyx", line 1103, in _pydevd_bundle.pydevd_cython_win32_311_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\\pydevd_cython_win32_311_64.pyx", line 1065, in _pydevd_bundle.pydevd_cython_win32_311_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\\pydevd_cython_win32_311_64.pyx", line 585, in _pydevd_bundle.pydevd_cython_win32_311_64.PyDBFrame.do_wait_suspend
+  File "C:\Program Files\JetBrains\PyCharm 2024.2.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1207, in do_wait_suspend
+    self._do_wait_suspend(thread, frame, event, arg, suspend_type, from_this_thread)
+  File "C:\Program Files\JetBrains\PyCharm 2024.2.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1222, in _do_wait_suspend
+    time.sleep(0.01)
+KeyboardInterrupt
+
+2024-11-02 18:13:48,754 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_ComboBox\post_combobox.py", line 43, in data_clear
+    for bu_del in self.control_dict:
+RuntimeError: dictionary changed size during iteration
+
+2024-11-02 18:17:31,646 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_ComboBox\post_combobox.py", line 45, in data_clear
+    self.control_dict[1]['bu_del'].click()
+    ^^^^
+  File "_pydevd_bundle\\pydevd_cython_win32_311_64.pyx", line 1187, in _pydevd_bundle.pydevd_cython_win32_311_64.SafeCallWrapper.__call__
+  File "_pydevd_bundle\\pydevd_cython_win32_311_64.pyx", line 627, in _pydevd_bundle.pydevd_cython_win32_311_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\\pydevd_cython_win32_311_64.pyx", line 1103, in _pydevd_bundle.pydevd_cython_win32_311_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\\pydevd_cython_win32_311_64.pyx", line 1065, in _pydevd_bundle.pydevd_cython_win32_311_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\\pydevd_cython_win32_311_64.pyx", line 585, in _pydevd_bundle.pydevd_cython_win32_311_64.PyDBFrame.do_wait_suspend
+  File "C:\Program Files\JetBrains\PyCharm 2024.2.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1207, in do_wait_suspend
+    self._do_wait_suspend(thread, frame, event, arg, suspend_type, from_this_thread)
+  File "C:\Program Files\JetBrains\PyCharm 2024.2.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1222, in _do_wait_suspend
+    time.sleep(0.01)
+KeyboardInterrupt
+
+2024-11-02 18:18:00,505 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_ComboBox\post_combobox.py", line 45, in data_clear
+    self.control_dict[2]['bu_del'].click()
+    ~~~~~~~~~~~~~~~~~^^^
+KeyError: 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_ComboBox\post_combobox.py", line 47, in data_clear
+    self.control_dict[2]['bu_del'].click()
+    ~~~~~~~~~~~~~~~~~^^^
+KeyError: 2
+
+2024-11-02 18:18:03,608 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_ComboBox\post_combobox.py", line 45, in data_clear
+    self.control_dict[2]['bu_del'].click()
+    ~~~~~~~~~~~~~~~~~^^^
+KeyError: 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_ComboBox\post_combobox.py", line 47, in data_clear
+    self.control_dict[2]['bu_del'].click()
+    ~~~~~~~~~~~~~~~~~^^^
+KeyError: 2
+
+2024-11-02 18:18:11,180 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_ComboBox\post_combobox.py", line 45, in data_clear
+    self.control_dict[2]['bu_del'].click()
+    ~~~~~~~~~~~~~~~~~^^^
+KeyError: 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_ComboBox\post_combobox.py", line 47, in data_clear
+    self.control_dict[2]['bu_del'].click()
+    ~~~~~~~~~~~~~~~~~^^^
+KeyError: 2
+
+2024-11-02 18:18:17,575 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_ComboBox\post_combobox.py", line 45, in data_clear
+    self.control_dict[2]['bu_del'].click()
+    ~~~~~~~~~~~~~~~~~^^^
+KeyError: 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_ComboBox\post_combobox.py", line 47, in data_clear
+    self.control_dict[2]['bu_del'].click()
+    ~~~~~~~~~~~~~~~~~^^^
+KeyError: 2
+
+2024-11-02 18:29:10,096 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_Template\post_template.py", line 36, in closeEvent
+    self.pushButton_data_clear.click()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'post_template' object has no attribute 'pushButton_data_clear'
+
+2024-11-02 18:30:20,267 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_Template\post_template.py", line 38, in closeEvent
+    self.pushButton_data_clear.click()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'post_template' object has no attribute 'pushButton_data_clear'
+
+2024-11-02 18:33:36,399 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_UI\GUI_Perform\web_perform_func.py", line 139, in open_interface
+    self.pw = post_window()  # 打开接口窗口
+              ^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\post_window.py", line 22, in __init__
+    self.tp = post_template()  # 编辑模板
+              ^^^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_Template\post_template.py", line 21, in __init__
+    self.setupUi(self)
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_Untitled\untitled_post_template.py", line 14, in setupUi
+    Form_Template.setObjectName("Form_Template")
+RuntimeError: super-class __init__() of type post_template was never called
+
+2024-11-02 18:33:37,827 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_UI\GUI_Perform\web_perform_func.py", line 139, in open_interface
+    self.pw = post_window()  # 打开接口窗口
+              ^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\post_window.py", line 22, in __init__
+    self.tp = post_template()  # 编辑模板
+              ^^^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_Template\post_template.py", line 21, in __init__
+    self.setupUi(self)
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_Untitled\untitled_post_template.py", line 14, in setupUi
+    Form_Template.setObjectName("Form_Template")
+RuntimeError: super-class __init__() of type post_template was never called
+
+2024-11-02 18:33:40,158 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_UI\GUI_Perform\web_perform_func.py", line 139, in open_interface
+    self.pw = post_window()  # 打开接口窗口
+              ^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\post_window.py", line 22, in __init__
+    self.tp = post_template()  # 编辑模板
+              ^^^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_Template\post_template.py", line 21, in __init__
+    self.setupUi(self)
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_Untitled\untitled_post_template.py", line 14, in setupUi
+    Form_Template.setObjectName("Form_Template")
+RuntimeError: super-class __init__() of type post_template was never called
+
+2024-11-02 18:34:59,535 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_Template\post_template.py", line 38, in closeEvent
+    self.pushButton_data_clear.click()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'post_template' object has no attribute 'pushButton_data_clear'
+
+2024-11-02 18:35:42,805 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_Template\post_template.py", line 38, in closeEvent
+    self.pushButton_data_clear.click()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'post_template' object has no attribute 'pushButton_data_clear'
+

@@ -4,8 +4,6 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 
-from Auto_wed_current.Auto_base.filename import filename
-
 """
 连接当前浏览器，暂时注释，需要终端输入
 chrome.exe --remote-debugging-port=9527 --user-data-dir="C:\selenium\AutomationProfile"

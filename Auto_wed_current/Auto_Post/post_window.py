@@ -1,8 +1,6 @@
-import csv
-
 from PyQt6 import QtWidgets
 from PyQt6.QtCore import Qt
-from PyQt6.QtWidgets import QMessageBox, QTableWidgetItem
+from PyQt6.QtWidgets import QMessageBox
 
 from Auto_wed_current.Auto_Post.GUI_Post_ComboBox.post_combobox import post_combobox
 from Auto_wed_current.Auto_Post.GUI_Post_Download_template.post_download_template import post_download_template
@@ -11,7 +9,6 @@ from Auto_wed_current.Auto_Post.GUI_Post_Template.post_template import post_temp
 from Auto_wed_current.Auto_Post.GUI_Post_Thread.post_thread import execute_thread
 from Auto_wed_current.Auto_Post.__init__ import post_property_data
 from Auto_wed_current.Auto_Post.GUI_Post_Untitled.untitled_post import Ui_Form_Post
-from Auto_wed_current.Auto_base.filename import filename
 
 class post_window(QtWidgets.QMainWindow, Ui_Form_Post):
     def __init__(self):
@@ -22,7 +19,7 @@ class post_window(QtWidgets.QMainWindow, Ui_Form_Post):
 
         self.post_tableWidget_setting()
         self.dt = post_download_template()  # 模板下载
-        self.tp = post_template()  # 编辑模板
+        self.tp = post_template(self.pushButton_data_clear)  # 编辑模板
         self.bt = post_button_IsEnabled() # 按钮权限控制
         self.cb = post_combobox()  # 输入模板，初始化行数，默认添加一行，初始化选项数据
         self.et = execute_thread(self.cb.control_dict)
@@ -44,6 +41,7 @@ class post_window(QtWidgets.QMainWindow, Ui_Form_Post):
         post_property_data.pushButton_download_template = self.pushButton_download_template # 下载模板
         post_property_data.pushButton_edit_template = self.pushButton_edit_template  # 编辑模板
         post_property_data.tableWidget_preview = self.tableWidget_preview # 表格
+        post_property_data.pushButton_data_clear = self.pushButton_data_clear  # 全部清除
 
     def post_tableWidget_setting(self):
         self.tableWidget_preview.setHorizontalHeaderLabels([

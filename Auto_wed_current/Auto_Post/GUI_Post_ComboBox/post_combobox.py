@@ -1,7 +1,7 @@
 import csv
 
 from PyQt6 import QtCore
-from PyQt6.QtCore import Qt, QPoint
+from PyQt6.QtCore import Qt
 from PyQt6.QtGui import QCursor
 from PyQt6.QtWidgets import *
 
@@ -36,6 +36,16 @@ class post_combobox(post_property_data):
         self.cw = post_csv_write() # 获取cs目录
         self.append_title()
         self.append_line()
+
+        self.pushButton_data_clear.clicked.connect(self.data_clear)
+
+    def data_clear(self):
+        while True:
+            try:
+                self.control_dict[2]['bu_del'].click()
+            except Exception as e:
+                self.control_dict[1]['bu_del'].click()
+                break
 
     def location_size(self, dir, key, num):
         """
