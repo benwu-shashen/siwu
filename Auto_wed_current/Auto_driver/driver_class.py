@@ -2,6 +2,9 @@ import subprocess
 
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service
+
+from Auto_wed_current.Auto_base.filename import filename
 
 """
 连接当前浏览器，暂时注释，需要终端输入
@@ -29,6 +32,7 @@ class driver_class:
     def driver_connect(self):
         options = Options()
         options.add_experimental_option("debuggerAddress", "127.0.0.1:9527")
-        self.driver_01 = webdriver.Chrome(options=options)
+        service = Service('../Auto_UI/chromedriver.exe')
+        self.driver_01 = webdriver.Chrome(options=options, service=service)
         driver_class.driver_01 = self.driver_01
 
