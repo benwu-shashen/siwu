@@ -1,7 +1,7 @@
 import csv
 
 from PyQt6 import QtCore
-from PyQt6.QtCore import Qt
+from PyQt6.QtCore import Qt, QPoint
 from PyQt6.QtGui import QCursor
 from PyQt6.QtWidgets import *
 
@@ -275,3 +275,8 @@ class post_combobox(post_property_data):
         self.tableWidget_preview.cellClicked.connect(self.show_tooltip)
 
     def show_tooltip(self, row, column):
+        item = self.tableWidget_preview.item(row, column)  # 从tableWidget中获取item
+        if item:
+            index = self.tableWidget_preview.model().index(row, column)  # 获取对应的QModelIndex
+            rect = self.tableWidget_preview.visualRect(index)  # 获取对应的矩形区域
+            QToolTip.showText(self.tableWidget_preview.mapToGlobal(rect.topLeft()), item.text())

@@ -16,3 +16,4 @@
 
 1.67版
 1.driver.execute_script("arguments[0].setAttribute('style',arguments[1]);", ele, "background: green; border: 2px solid red;")
+

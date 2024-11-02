@@ -5,21 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91a3fed8-a038-4455-affe-4e4ea8897a0d" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/Auto_wed_current/test_01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pythonProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Auto_wed_current/demo.qss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Auto_wed_current/注意事项.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_ComboBox/post_combobox.py" beforeDir="false" afterPath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_ComboBox/post_combobox.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_Request/post_request.py" beforeDir="false" afterPath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_Request/post_request.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_Untitled/untitled_post.py" beforeDir="false" afterPath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_Untitled/untitled_post.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_Untitled/untitled_post.ui" beforeDir="false" afterPath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_Untitled/untitled_post.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/post_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/Auto_wed_current/Auto_Post/post_window.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_UI/GUI_Logging/log_file/202410error.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_UI/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Auto_wed_current/Auto_UI/chromedriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_driver/driver_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/Auto_wed_current/Auto_driver/driver_class.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auto_wed_current/test1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auto_wed_current/test1.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auto_wed_current/test_02.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/大致开发思路.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auto_wed_current/Auto_UI/web_qt_gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/Auto_wed_current/Auto_UI/web_qt_gui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auto_wed_current/test_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/Auto_wed_current/test_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/版本过程知识累积.txt" beforeDir="false" afterPath="$PROJECT_DIR$/版本过程知识累积.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +56,7 @@
     "Python.web_qt_gui.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/16946/Desktop/文件/文件/siwu/Auto_wed_current/test_01.py",
+    "last_opened_file_path": "C:/Users/16946/Desktop/siwu",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -82,12 +75,13 @@
       <recent name="C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_Untitled" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\16946\Desktop\文件\文件\siwu\Auto_wed_current" />
       <recent name="C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_file\模板下载" />
       <recent name="C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_file" />
       <recent name="C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_Post\GUI_Post_ComboBox" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test_01">
+  <component name="RunManager" selected="Python.web_qt_gui">
     <configuration name="test_01" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="siwu" />
       <option name="ENV_FILES" value="" />
@@ -206,8 +200,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python 测试.pytest (test_01.py 内)" />
         <item itemvalue="Python.web_qt_gui" />
+        <item itemvalue="Python 测试.pytest (test_01.py 内)" />
       </list>
     </recent_temporary>
   </component>
@@ -277,7 +271,16 @@
       <workItem from="1730391172950" duration="172000" />
       <workItem from="1730391384378" duration="662000" />
       <workItem from="1730392070238" duration="741000" />
-      <workItem from="1730467270086" duration="8400000" />
+      <workItem from="1730467270086" duration="8795000" />
+      <workItem from="1730477217134" duration="1959000" />
+      <workItem from="1730479212356" duration="696000" />
+      <workItem from="1730514133911" duration="209000" />
+      <workItem from="1730514361939" duration="435000" />
+      <workItem from="1730514816117" duration="117000" />
+      <workItem from="1730514983495" duration="284000" />
+      <workItem from="1730515280506" duration="109000" />
+      <workItem from="1730515415079" duration="2262000" />
+      <workItem from="1730517707969" duration="857000" />
     </task>
     <servers />
   </component>
@@ -304,20 +307,25 @@
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Auto_wed_current/Auto_UI/GUI_Perform/web_perform_func.py</url>
-          <line>52</line>
-          <option name="timeStamp" value="20" />
+          <url>file://$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_ComboBox/post_combobox.py</url>
+          <line>277</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/chromium/service.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/siwu$web_qt_gui.coverage" NAME="web_qt_gui 覆盖结果" MODIFIED="1730475585389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Auto_wed_current/Auto_UI" />
+    <SUITE FILE_PATH="coverage/siwu$web_qt_gui.coverage" NAME="web_qt_gui 覆盖结果" MODIFIED="1730518382774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Auto_wed_current/Auto_UI" />
     <SUITE FILE_PATH="coverage/pythonProject$web_qt_gui.coverage" NAME="web_qt_gui 覆盖结果" MODIFIED="1726908319588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Auto_wed_current/Auto_UI" />
     <SUITE FILE_PATH="coverage/siwu$test_04.coverage" NAME="test_04 覆盖结果" MODIFIED="1727669955186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Auto_wed_current" />
     <SUITE FILE_PATH="coverage/siwu$post_combobox_file.coverage" NAME="post_combobox_file 覆盖结果" MODIFIED="1730391904907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Auto_wed_current/Auto_Post/GUI_Post_ComboBox" />
     <SUITE FILE_PATH="coverage/siwu$pytest__test_01_py__.coverage" NAME="pytest (test_01.py 内) 覆盖结果" MODIFIED="1730475987857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Auto_wed_current" />
-    <SUITE FILE_PATH="coverage/siwu$test_01.coverage" NAME="test_01 覆盖结果" MODIFIED="1730476705629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/siwu$test_01.coverage" NAME="test_01 覆盖结果" MODIFIED="1730479145494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/siwu$test_02.coverage" NAME="test_02 覆盖结果" MODIFIED="1727508514704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Auto_wed_current" />
     <SUITE FILE_PATH="coverage/siwu$.coverage" NAME=" 覆盖结果" MODIFIED="1727884056605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Auto_wed_current" />
     <SUITE FILE_PATH="coverage/siwu$test1.coverage" NAME="test1 覆盖结果" MODIFIED="1727447977811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Auto_wed_current" />

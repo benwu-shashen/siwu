@@ -50,8 +50,12 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         if messageBox.clickedButton() == buttonY:
             event.accept()
             driver = driver_class().driver_Chrome('account_01')
-            driver.close()
-            os.system('taskkill /im chromedriver.exe /F')
+            try:
+                driver.close()
+            except Exception as e:
+                pass
+            else:
+                os.system('taskkill /im chromedriver.exe /F')
 
         elif messageBox.clickedButton() == buttonN:
             event.ignore()

@@ -1,0 +1,179 @@
+2024-11-01 22:33:04,908 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\文件\文件\siwu\Auto_wed_current\Auto_UI\web_qt_gui.py", line 52, in closeEvent
+    driver = driver_class().driver_Chrome('account_01')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\文件\文件\siwu\Auto_wed_current\Auto_driver\driver_class.py", line 26, in driver_Chrome
+    return self.driver_01
+           ^^^^^^^^^^^^^^
+AttributeError: 'driver_class' object has no attribute 'driver_01'
+
+2024-11-01 22:33:18,893 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\文件\文件\siwu\Auto_wed_current\Auto_UI\web_qt_gui.py", line 52, in closeEvent
+    driver = driver_class().driver_Chrome('account_01')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\文件\文件\siwu\Auto_wed_current\Auto_driver\driver_class.py", line 26, in driver_Chrome
+    return self.driver_01
+           ^^^^^^^^^^^^^^
+AttributeError: 'driver_class' object has no attribute 'driver_01'
+
+2024-11-01 22:33:40,075 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\文件\文件\siwu\Auto_wed_current\Auto_UI\web_qt_gui.py", line 52, in closeEvent
+    driver = driver_class().driver_Chrome('account_01')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\文件\文件\siwu\Auto_wed_current\Auto_driver\driver_class.py", line 26, in driver_Chrome
+    return self.driver_01
+           ^^^^^^^^^^^^^^
+AttributeError: 'driver_class' object has no attribute 'driver_01'
+
+2024-11-01 22:34:08,883 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\文件\文件\siwu\Auto_wed_current\Auto_UI\web_qt_gui.py", line 52, in closeEvent
+    driver = driver_class().driver_Chrome('account_01')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\文件\文件\siwu\Auto_wed_current\Auto_driver\driver_class.py", line 26, in driver_Chrome
+    return self.driver_01
+           ^^^^^^^^^^^^^^
+AttributeError: 'driver_class' object has no attribute 'driver_01'
+
+2024-11-01 22:42:35,838 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\文件\文件\siwu\Auto_wed_current\Auto_UI\web_qt_gui.py", line 52, in closeEvent
+    driver = driver_class().driver_Chrome('account_01')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\文件\文件\siwu\Auto_wed_current\Auto_driver\driver_class.py", line 26, in driver_Chrome
+    return self.driver_01
+           ^^^^^^^^^^^^^^
+AttributeError: 'driver_class' object has no attribute 'driver_01'
+
+2024-11-01 23:19:36,124 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\文件\文件\siwu\Auto_wed_current\Auto_Post\GUI_Post_ComboBox\post_combobox.py", line 134, in <lambda>
+    control_groove_locals[i + 'test'] = lambda: self.preview_line(self.control_dict[line]['box_file'].currentText())
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\文件\文件\siwu\Auto_wed_current\Auto_Post\GUI_Post_ComboBox\post_combobox.py", line 275, in preview_line
+    self.tableWidget_preview.cellEntered.connect(self.show_tooltip)
+                                                 ^^^^^^^^^^^^^^^^^
+AttributeError: 'post_combobox' object has no attribute 'show_tooltip'
+
+2024-11-01 23:35:11,499 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\文件\文件\siwu\Auto_wed_current\Auto_Post\GUI_Post_ComboBox\post_combobox.py", line 282, in show_tooltip
+    self.tableWidget_preview.cellRect(row, column).topLeft())
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'QTableWidget' object has no attribute 'cellRect'
+
+2024-11-01 23:35:12,557 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\文件\文件\siwu\Auto_wed_current\Auto_Post\GUI_Post_ComboBox\post_combobox.py", line 282, in show_tooltip
+    self.tableWidget_preview.cellRect(row, column).topLeft())
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'QTableWidget' object has no attribute 'cellRect'
+
+2024-11-01 23:35:13,070 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\文件\文件\siwu\Auto_wed_current\Auto_Post\GUI_Post_ComboBox\post_combobox.py", line 282, in show_tooltip
+    self.tableWidget_preview.cellRect(row, column).topLeft())
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'QTableWidget' object has no attribute 'cellRect'
+
+2024-11-01 23:35:13,529 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\文件\文件\siwu\Auto_wed_current\Auto_Post\GUI_Post_ComboBox\post_combobox.py", line 282, in show_tooltip
+    self.tableWidget_preview.cellRect(row, column).topLeft())
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'QTableWidget' object has no attribute 'cellRect'
+
+2024-11-01 23:35:13,947 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\文件\文件\siwu\Auto_wed_current\Auto_Post\GUI_Post_ComboBox\post_combobox.py", line 282, in show_tooltip
+    self.tableWidget_preview.cellRect(row, column).topLeft())
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'QTableWidget' object has no attribute 'cellRect'
+
+2024-11-01 23:35:14,325 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\文件\文件\siwu\Auto_wed_current\Auto_Post\GUI_Post_ComboBox\post_combobox.py", line 282, in show_tooltip
+    self.tableWidget_preview.cellRect(row, column).topLeft())
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'QTableWidget' object has no attribute 'cellRect'
+
+2024-11-02 00:41:38,417 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\文件\文件\siwu\Auto_wed_current\Auto_UI\web_qt_gui.py", line 52, in closeEvent
+    driver = driver_class().driver_Chrome('account_01')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\文件\文件\siwu\Auto_wed_current\Auto_driver\driver_class.py", line 26, in driver_Chrome
+    return self.driver_01
+           ^^^^^^^^^^^^^^
+AttributeError: 'driver_class' object has no attribute 'driver_01'
+
+2024-11-02 00:42:03,896 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\文件\文件\siwu\Auto_wed_current\Auto_UI\web_qt_gui.py", line 52, in closeEvent
+    driver = driver_class().driver_Chrome('account_01')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\文件\文件\siwu\Auto_wed_current\Auto_driver\driver_class.py", line 26, in driver_Chrome
+    return self.driver_01
+           ^^^^^^^^^^^^^^
+AttributeError: 'driver_class' object has no attribute 'driver_01'
+
+2024-11-02 00:44:32,192 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\文件\文件\siwu\Auto_wed_current\Auto_Post\GUI_Post_ComboBox\post_combobox.py", line 280, in show_tooltip
+    QToolTip.showText(self.tableWidget_preview.mapToGlobal(self.tableWidget_preview.visualRect(item).topLeft()),
+                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: visualRect(self, index: QModelIndex): argument 1 has unexpected type 'QTableWidgetItem'
+
+2024-11-02 00:46:03,373 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\文件\文件\siwu\Auto_wed_current\Auto_Post\GUI_Post_ComboBox\post_combobox.py", line 280, in show_tooltip
+    QToolTip.showText("你好")
+TypeError: showText(pos: QPoint, text: str, widget: typing.Optional[QWidget] = None, rect: QRect = {}, msecShowTime: int = -1): argument 1 has unexpected type 'str'
+
+2024-11-02 00:50:13,093 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\文件\文件\siwu\Auto_wed_current\Auto_Post\GUI_Post_ComboBox\post_combobox.py", line 280, in show_tooltip
+    QToolTip.showText(self.tableWidget_preview.mapToGlobal(self.tableWidget_preview.visualRect(item).topLeft()), item.text())
+                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: visualRect(self, index: QModelIndex): argument 1 has unexpected type 'QTableWidgetItem'
+
+2024-11-02 10:23:41,706 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\文件\文件\siwu\Auto_wed_current\Auto_UI\web_qt_gui.py", line 52, in closeEvent
+    driver = driver_class().driver_Chrome('account_01')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\文件\文件\siwu\Auto_wed_current\Auto_driver\driver_class.py", line 26, in driver_Chrome
+    return self.driver_01
+           ^^^^^^^^^^^^^^
+AttributeError: 'driver_class' object has no attribute 'driver_01'
+
+2024-11-02 11:24:53,375 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_UI\web_qt_gui.py", line 52, in closeEvent
+    driver = driver_class().driver_Chrome('account_01')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_driver\driver_class.py", line 26, in driver_Chrome
+    return self.driver_01
+           ^^^^^^^^^^^^^^
+AttributeError: 'driver_class' object has no attribute 'driver_01'
+
+2024-11-02 11:34:21,945 - web_UI - ERROR - Traceback (most recent call last):
+  File "C:\Users\16946\Desktop\siwu\Auto_wed_current\Auto_UI\web_qt_gui.py", line 53, in closeEvent
+    driver.close()
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 491, in close
+    self.execute(Command.CLOSE)
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 380, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\16946\Desktop\siwu\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=130.0.6723.92)
+Stacktrace:
+	GetHandleVerifier [0x00007FF78D553AF5+28005]
+	(No symbol) [0x00007FF78D4B83F0]
+	(No symbol) [0x00007FF78D35580A]
+	(No symbol) [0x00007FF78D340B06]
+	(No symbol) [0x00007FF78D341FCF]
+	(No symbol) [0x00007FF78D355E23]
+	(No symbol) [0x00007FF78D32F55D]
+	(No symbol) [0x00007FF78D3D9CE9]
+	(No symbol) [0x00007FF78D3CBA00]
+	(No symbol) [0x00007FF78D3975C8]
+	(No symbol) [0x00007FF78D398731]
+	GetHandleVerifier [0x00007FF78D84646D+3118813]
+	GetHandleVerifier [0x00007FF78D896CC0+3448624]
+	GetHandleVerifier [0x00007FF78D88CF3D+3408301]
+	GetHandleVerifier [0x00007FF78D61A44B+841403]
+	(No symbol) [0x00007FF78D4C344F]
+	(No symbol) [0x00007FF78D4BF4C4]
+	(No symbol) [0x00007FF78D4BF65D]
+	(No symbol) [0x00007FF78D4AEBB9]
+	BaseThreadInitThunk [0x00007FFAE4FC257D+29]
+	RtlUserThreadStart [0x00007FFAE71AAF08+40]
+
+
